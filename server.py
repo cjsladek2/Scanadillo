@@ -94,10 +94,10 @@ def analyze_image():
         )
 
         raw_text = ocr_response.choices[0].message.content.strip()
-        print("🧾 Raw OCR result:", raw_text)
+        print(" Raw OCR result:", raw_text)
 
     except Exception as e:
-        print(f"❌ OCR Error: {e}")
+        print(f" OCR Error: {e}")
         return jsonify({
             "success": False,
             "error": "Failed to process image. Please try again with a clearer photo."
@@ -155,10 +155,10 @@ def analyze_image():
         )
 
         cleaned_text = verify_response.choices[0].message.content.strip()
-        print("✨ Verified ingredient text:", cleaned_text)
+        print(" Verified ingredient text:", cleaned_text)
 
     except Exception as e:
-        print(f"❌ Verification Error: {e}")
+        print(f" Verification Error: {e}")
         return jsonify({
             "success": False,
             "error": "Failed to verify ingredients. Please try again."
@@ -194,10 +194,10 @@ def analyze_image():
         )
 
         final_text = format_response.choices[0].message.content.strip()
-        print("✅ Final verified list:", final_text)
+        print(" Final verified list:", final_text)
 
     except Exception as e:
-        print(f"❌ Format Check Error: {e}")
+        print(f" Format Check Error: {e}")
         final_text = cleaned_text  # Fallback to cleaned text
 
     # ---------- STEP 4: Join any '-yl' fragments ----------
@@ -222,7 +222,7 @@ def analyze_image():
             merged.append(current)
             i += 1
     final_text = ", ".join(merged)
-    print("🔗 After merging '-yl' fragments:", final_text)
+    print(" After merging '-yl' fragments:", final_text)
 
     # ---------- STEP 5: Analyze ingredients ----------
     try:
@@ -247,7 +247,7 @@ def analyze_image():
         return jsonify({"success": True, "raw_text": final_text, **results})
         
     except Exception as e:
-        print(f"❌ Analysis Error: {e}")
+        print(f" Analysis Error: {e}")
         return jsonify({
             "success": False,
             "error": f"Failed to analyze ingredients: {str(e)}"

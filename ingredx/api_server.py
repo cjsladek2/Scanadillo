@@ -9,7 +9,7 @@ import traceback
 import os
 
 print("=" * 50)
-print("🚀 Starting API Server...")
+print(" Starting API Server...")
 print("=" * 50)
 
 # Add parent directory to path to handle package imports
@@ -19,12 +19,12 @@ sys.path.insert(0, parent_dir)
 
 # Try to import the engine with error handling
 try:
-    print("📦 Importing IngredientEngine...")
+    print(" Importing IngredientEngine...")
     # Import as a package module
     from ingredx.engine import IngredientEngine
-    print("✅ IngredientEngine imported successfully!")
+    print(" IngredientEngine imported successfully!")
 except Exception as e:
-    print(f"❌ ERROR importing IngredientEngine: {e}")
+    print(f" ERROR importing IngredientEngine: {e}")
     traceback.print_exc()
     sys.exit(1)
 
@@ -33,11 +33,11 @@ CORS(app)
 
 # Initialize the engine with error handling
 try:
-    print("🔧 Initializing IngredientEngine...")
+    print(" Initializing IngredientEngine...")
     engine = IngredientEngine()
-    print("✅ IngredientEngine initialized successfully!")
+    print(" IngredientEngine initialized successfully!")
 except Exception as e:
-    print(f"❌ ERROR initializing IngredientEngine: {e}")
+    print(f" ERROR initializing IngredientEngine: {e}")
     traceback.print_exc()
     sys.exit(1)
 
@@ -60,7 +60,7 @@ def analyze_image():
     """
     try:
         print("\n" + "=" * 50)
-        print("📸 Received image analysis request")
+        print(" Received image analysis request")
         
         data = request.json
         image_data = data.get('image')
@@ -75,14 +75,14 @@ def analyze_image():
         if ',' in image_data:
             image_data = image_data.split(',')[1]
         
-        print("🔄 Decoding base64 image...")
+        print(" Decoding base64 image...")
         # Decode base64 to image
         image_bytes = base64.b64decode(image_data)
         image = Image.open(io.BytesIO(image_bytes))
-        print(f"✅ Image decoded: {image.size}")
+        print(f" Image decoded: {image.size}")
         
         # Preprocess image for better OCR
-        print("🔧 Preprocessing image...")
+        print(" Preprocessing image...")
         # Convert to grayscale
         image = image.convert('L')
         # Increase contrast
@@ -91,19 +91,19 @@ def analyze_image():
         image = enhancer.enhance(2.0)
         
         # Extract text using Tesseract OCR with optimized settings
-        print("📝 Running OCR...")
+        print(" Running OCR...")
         custom_config = r'--oem 3 --psm 6 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0-9,.()- '
         raw_text = pytesseract.image_to_string(image, config=custom_config)
-        print(f"📄 Extracted text ({len(raw_text)} chars):")
+        print(f" Extracted text ({len(raw_text)} chars):")
         print(raw_text[:200] + "..." if len(raw_text) > 200 else raw_text)
         
         # Analyze ingredients using your engine
-        print("🧪 Analyzing ingredients...")
+        print(" Analyzing ingredients...")
         results = engine.analyze_ingredient_list(raw_text, language="en")
         
         # Post-process: Clean up common OCR typos in ingredient names
         if results.get('ingredients'):
-            print("🔧 Cleaning up ingredient names...")
+            print(" Cleaning up ingredient names...")
             cleaned_ingredients = []
             for ing in results['ingredients']:
                 # Common OCR corrections
@@ -129,14 +129,14 @@ def analyze_image():
             results['schemas'] = new_schemas
         
         if 'error' in results:
-            print(f"⚠️  No ingredients found: {results['error']}")
+            print(f"  No ingredients found: {results['error']}")
             return jsonify({
                 'success': False,
                 'error': results['error'],
                 'raw_text': raw_text
             })
         
-        print(f"✅ Found {len(results.get('ingredients', []))} ingredients")
+        print(f"Found {len(results.get('ingredients', []))} ingredients")
         print("=" * 50 + "\n")
         
         return jsonify({
@@ -148,7 +148,7 @@ def analyze_image():
         })
         
     except Exception as e:
-        print(f"❌ ERROR in analyze_image: {str(e)}")
+        print(f"ERROR in analyze_image: {str(e)}")
         traceback.print_exc()
         return jsonify({
             'success': False,
@@ -162,7 +162,7 @@ def chat():
     Handle chatbot queries about ingredients
     """
     try:
-        print("\n💬 Received chat request")
+        print("\nReceived chat request")
         data = request.json
         question = data.get('question')
         
@@ -172,11 +172,11 @@ def chat():
                 'error': 'No question provided'
             }), 400
         
-        print(f"❓ Question: {question}")
+        print(f"Question: {question}")
         
         result = engine.generate(question, mode="chat", output_language="en")
         
-        print(f"✅ Generated response")
+        print(f"Generated response")
         
         return jsonify({
             'success': True,
@@ -184,7 +184,7 @@ def chat():
         })
         
     except Exception as e:
-        print(f"❌ ERROR in chat: {str(e)}")
+        print(f"ERROR in chat: {str(e)}")
         traceback.print_exc()
         return jsonify({
             'success': False,
@@ -194,13 +194,13 @@ def chat():
 
 if __name__ == '__main__':
     print("\n" + "=" * 50)
-    print("✅ All systems ready!")
-    print("📍 Server running on http://localhost:5000")
-    print("🌐 Test it: http://localhost:5000")
+    print("All systems ready!")
+    print("Server running on http://localhost:5000")
+    print("Test it: http://localhost:5000")
     print("=" * 50 + "\n")
     
     try:
         app.run(debug=True, port=5000, host='0.0.0.0')
     except Exception as e:
-        print(f"\n❌ Server error: {e}")
+        print(f"\nServer error: {e}")
         traceback.print_exc()

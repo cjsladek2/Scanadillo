@@ -33,7 +33,7 @@ class MatchResult(BaseModel):
     detected_language: Optional[str] = None
 
 
-# ✅ Updated to support new modes (added "chat")
+#  Updated to support new modes (added "chat")
 DetailLevel = Literal["blurb", "overview", "schema", "chat"]
 
 

@@ -15,9 +15,9 @@ from .adapters.openai_summarizer import OpenAISummarizer
 class IngredientEngine:
     """
     Ultra-optimized IngredientEngine:
-    ✅ Uses gpt-4o-mini for speed
-    ✅ ThreadPool for parallel ingredient processing
-    ✅ Keeps cache, schemas, and full compatibility
+     Uses gpt-4o-mini for speed
+     ThreadPool for parallel ingredient processing
+     Keeps cache, schemas, and full compatibility
     """
 
     def __init__(self, cache_file: str = "ingredx_cache.json"):
@@ -257,7 +257,7 @@ class IngredientEngine:
             except Exception as e:
                 return ing, f"[Error: {e}]", {}
 
-        # 🔥 Run up to 6 parallel threads (balance of speed vs. API limits)
+        #  Run up to 6 parallel threads (balance of speed vs. API limits)
         with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
             for ing, blurb_text, schema_data in executor.map(process, ingredients):
                 blurbs[ing] = blurb_text
@@ -272,9 +272,9 @@ class IngredientEngine:
 
 # ---------- CLI ----------
 if __name__ == "__main__":
-    print("✅ Optimized IngredientEngine loaded.")
+    print(" Optimized IngredientEngine loaded.")
     engine = IngredientEngine()
-    print("✅ Engine initialized with OpenAI (gpt-4o-mini).")
+    print(" Engine initialized with OpenAI (gpt-4o-mini).")
 
     while True:
         print("\n🧩 Mode: [blurb / overview / schema / chat / list / quit]")
@@ -283,11 +283,11 @@ if __name__ == "__main__":
             break
 
         if mode == "list":
-            raw_text = input("📜 Paste full label text: ").strip()
+            raw_text = input(" Paste full label text: ").strip()
             results = engine.analyze_ingredient_list(raw_text)
             print(json.dumps(results, indent=2, ensure_ascii=False))
             continue
 
-        q = input("👩‍🔬 Enter ingredient: ").strip()
+        q = input(" Enter ingredient: ").strip()
         result = engine.generate(q, mode=mode)
         print(f"\n[{mode.upper()} Output]\n{result.explanation.text}\n")

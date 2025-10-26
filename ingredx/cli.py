@@ -61,7 +61,7 @@ def explain(
     engine = _load_engine(kb, use_openai=openai)
     result = engine.generate(ingredient, mode=mode, output_language=lang)
 
-    print(f"\n🌿 [Mode: {mode.upper()}] 🌿\n")
+    print(f"\n [Mode: {mode.upper()}] 🌿\n")
     if mode == "schema":
         # schema is already JSON string, so print nicely
         try:
@@ -87,13 +87,13 @@ def compare(
     """
     engine = _load_engine(kb, use_openai=openai)
 
-    print("\n🔬 Comparing ingredients...\n")
+    print("\n Comparing ingredients...\n")
 
     for ing in [ingredient1, ingredient2]:
         blurb = engine.generate(ing, mode="blurb", output_language=lang)
         schema = engine.generate(ing, mode="schema", output_language=lang)
 
-        print(f"✨ {ing.title()} ✨")
+        print(f" {ing.title()} ")
         print(blurb.explanation.text)
         try:
             parsed = json.loads(schema.explanation.text)
