@@ -1,34 +1,98 @@
 {
   "phosphoric acid": {
-    "chemical_properties": "Phosphoric acid (H3PO4) is a colorless, odorless, syrupy liquid that is soluble in water. It has a melting point of 42.35 \u00b0C and a boiling point of 158 \u00b0C. It is classified as a weak acid with a pKa value of approximately 2.15, 7.2, and 12.37 for its three dissociation steps respectively.",
-    "common_uses": "Phosphoric acid is commonly used as an acidity regulator in food and beverages, especially in soft drinks. It is also utilized in fertilizers, dental products, and metal treatment processes, as well as in the manufacture of cleaning agents.",
-    "safety_and_controversy": "Phosphoric acid is generally recognized as safe (GRAS) when used in food production. However, its excessive consumption can lead to potential health issues like dental erosion and bone density loss. There are concerns about its role in phosphate pollution, which can cause environmental issues in water bodies.",
-    "environmental_and_regulation": "Phosphoric acid is regulated as a hazardous substance under various environmental laws due to its potential to cause eutrophication in aquatic ecosystems. Proper disposal and management are required to mitigate environmental impacts related to its use and release.",
-    "health_safety_rating": 0.85,
+    "chemical_properties": "Phosphoric acid is a colorless, odorless liquid with a syrupy consistency. It is a triprotic acid, meaning it can donate three protons (H+) and has a chemical formula of H3PO4. This acid is characterized by its acidic taste and is soluble in water.",
+    "common_uses": "Phosphoric acid is commonly used in food and beverage applications, particularly as a food additive for flavor enhancement and as a preservative. It is also utilized in fertilizers, rust removal products, and as a pH adjuster in various industrial processes.",
+    "safety_and_controversy": "While phosphoric acid is generally recognized as safe for use in food products, concerns have been raised regarding its potential role in bone health issues and its effects when consumed in large quantities. The main controversies stem from its use in carbonated beverages and its long-term health implications.",
+    "environmental_and_regulation": "Regulatory agencies such as the FDA have established guidelines for the safe use of phosphoric acid in food products. From an environmental perspective, phosphoric acid can contribute to water pollution if not disposed of properly, as it can lead to eutrophication in aquatic systems.",
+    "health_safety_rating": "0.85",
     "edible": true
   },
   "carbonated water": {
-    "chemical_properties": "Carbonated water is a solution of carbon dioxide gas dissolved in water under pressure, resulting in a slightly acidic solution with a pH typically around 3-4. It may contain minerals such as sodium, potassium, and magnesium depending on the source or product.",
-    "common_uses": "Carbonated water is commonly used as a beverage, mixer in cocktails, and as a base for flavored drinks. It is also used in cooking and baking to provide leavening and texture.",
-    "safety_and_controversy": "Carbonated water is generally recognized as safe for consumption. There are debates about the potential effects of carbon dioxide on dental health and gastrointestinal issues in some individuals, but these are typically mild or negligible.",
-    "environmental_and_regulation": "Production and bottling of carbonated water can have environmental impacts due to water usage and packaging waste. Regulations may apply to the sourcing of water and the labeling of carbonated products, especially in terms of mineral content.",
+    "chemical_properties": "Carbonated water is water into which carbon dioxide gas has been dissolved under pressure. This process forms carbonic acid, which gives carbonated water its characteristic tart flavor. The pH of carbonated water typically ranges from 3 to 4.",
+    "common_uses": "Carbonated water is commonly used as a refreshing beverage on its own or as a mixer in cocktails and other drinks. It is also used in cooking and baking for its ability to add lightness to batters and provide fizz to various recipes.",
+    "safety_and_controversy": "Carbonated water is generally recognized as safe for consumption. However, some individuals may experience bloating or discomfort from carbonation. It does not contain sugars or calories, making it a popular alternative to sugary sodas; however, excessive consumption may lead to dental erosion due to its acidity.",
+    "environmental_and_regulation": "The production of carbonated water can have a lower environmental impact compared to sugary beverages, especially if sourced sustainably. Regulations regarding the bottling and labeling of carbonated water vary by region but generally include guidelines to ensure water safety and quality.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "citric acid": {
-    "chemical_properties": "Citric acid is a weak organic acid with the chemical formula C6H8O7. It is a colorless or white crystalline substance and is highly soluble in water. Citric acid has a pK1 of 3.1, making it a triprotic acid that can donate three protons (H+) in solution.",
-    "common_uses": "Citric acid is commonly used as a natural preservative, flavoring agent in food and beverages, and as a cleaning agent. It is also used in the cosmetic and pharmaceutical industries as a pH adjuster and in various chemical applications.",
-    "safety_and_controversy": "Citric acid is generally recognized as safe (GRAS) by the FDA when used in food. However, excessive consumption can lead to gastrointestinal discomfort. There are minimal controversies surrounding citric acid, primarily concerning its production process from genetically modified organisms (GMOs).",
-    "environmental_and_regulation": "Citric acid is biodegradable and considered environmentally friendly. Regulatory agencies have set safety standards for its use in food and industrial applications, which are generally adhered to in most countries.",
+    "chemical_properties": "Citric acid is a weak organic acid with the formula C6H8O7. It is a natural preservative and is also used to add an acidic, sour taste to foods and beverages. It exists in a crystalline form and is soluble in water.",
+    "common_uses": "Citric acid is commonly used in the food industry as a preservative and flavoring agent, particularly in beverages, candies, and canned foods. It is also used in cosmetics and cleaning products for its chelating properties.",
+    "safety_and_controversy": "Citric acid is generally recognized as safe (GRAS) when used in normal food amounts. However, some individuals may experience allergic reactions or sensitivity. There are no significant controversies regarding its use.",
+    "environmental_and_regulation": "Citric acid is biodegradable and poses minimal environmental risk. It is regulated by food safety authorities around the world, maintaining standards for its use in food products.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "natural flavor": {
-    "chemical_properties": "Natural flavors are typically derived from plant or animal sources and consist of various chemical compounds, including esters, aldehydes, and alcohols, which contribute to their aroma and taste profiles.",
-    "common_uses": "Natural flavors are widely used in food and beverage products, such as candies, baked goods, dairy products, and soft drinks, to enhance taste and aroma.",
-    "safety_and_controversy": "Most natural flavors are considered safe for consumption; however, some individuals may have allergic reactions or sensitivities to specific natural flavor components. The term 'natural flavor' can also be controversial due to its vague definition, leading to consumer concerns about transparency.",
-    "environmental_and_regulation": "Natural flavors are regulated by the FDA and must comply with safety standards. While extraction processes vary, there are sustainability concerns regarding the sourcing of certain natural flavor ingredients, especially those derived from endangered species or unsustainable agricultural practices.",
+    "chemical_properties": "Natural flavors are complex mixtures derived from natural sources such as fruits, vegetables, herbs, spices, or other plant or animal materials. They can contain volatile and non-volatile compounds that impart flavor without adding significant nutritional value.",
+    "common_uses": "Natural flavors are widely used in food products, beverages, and cosmetics to enhance or modify taste and aroma. Common applications include snacks, confectionery, dairy products, sauces, and flavored drinks.",
+    "safety_and_controversy": "Natural flavors are generally recognized as safe (GRAS) by agencies like the FDA, but some individuals may experience allergic reactions or sensitivities to specific natural flavor components. Controversy can arise from the lack of transparency regarding the exact sources and constituents of these flavors.",
+    "environmental_and_regulation": "Natural flavors are regulated by food safety authorities. Their production can involve various agricultural practices, which may impact environmental sustainability depending on sourcing methods. Certifications for organic or sustainable sourcing may apply.",
     "health_safety_rating": 0.85,
+    "edible": true
+  },
+  "caffeine": {
+    "chemical_properties": "Caffeine (C8H10N4O2) is a bitter alkaloid that belongs to the methylxanthine class of compounds. It is a natural stimulant found in various plants, primarily in coffee beans, tea leaves, and cacao pods. Caffeine is soluble in water and has a molecular weight of 194.19 g/mol.",
+    "common_uses": "Caffeine is widely used as a central nervous system stimulant to increase alertness and reduce fatigue. It is commonly found in coffee, tea, energy drinks, soft drinks, and over-the-counter medications for headaches and cold relief. It is also used in dietary supplements for weight loss.",
+    "safety_and_controversy": "Caffeine is generally recognized as safe for most adults when consumed in moderate amounts. However, excessive consumption may lead to adverse effects such as insomnia, jitteriness, increased heart rate, and digestive issues. There are ongoing debates regarding its long-term health impacts, especially in pregnant individuals.",
+    "environmental_and_regulation": "Caffeine is not considered hazardous to the environment under normal conditions. It is regulated in food and beverage industries, with guidelines set by organizations like the FDA regarding safe consumption limits. However, concerns exist about the environmental impact of large-scale coffee and tea production.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "high fructose corn syrup": {
+    "chemical_properties": "High Fructose Corn Syrup (HFCS) is a sweetener created from corn starch, primarily comprising fructose and glucose. It typically comes in various formulations, with HFCS-42 and HFCS-55 being the most common, which denote the percentage of fructose present.",
+    "common_uses": "HFCS is widely used in the food industry as a sweetener in soft drinks, desserts, baked goods, and processed foods due to its cost-effectiveness and ability to enhance flavor.",
+    "safety_and_controversy": "The consumption of HFCS has been associated with health concerns, including obesity and metabolic syndrome, leading to public debates. Some health organizations advise minimizing intake, while regulatory agencies consider it safe within established consumption limits.",
+    "environmental_and_regulation": "The production of HFCS has implications for agricultural practices and corn farming in the U.S., including pesticide use and land use changes. It is regulated by food safety authorities, which ensure it meets safety standards for consumption.",
+    "health_safety_rating": 0.7,
+    "edible": true
+  },
+  "caramel color": {
+    "chemical_properties": "Caramel color is a water-soluble colorant produced by the controlled heat treatment of carbohydrates, often in the presence of acids, alkalis, or salts. It is categorized into four classes: Class I (Plain Caramel), Class II (Caustic Sulfite Caramel), Class III (Ammonia Caramel), and Class IV (Sulfite Ammonia Caramel), each with varying levels of coloring strength and properties.",
+    "common_uses": "Caramel color is widely used in food and beverage products such as soft drinks, sauces, baked goods, and confections to enhance appearance and provide a brown color.",
+    "safety_and_controversy": "Caramel color is generally recognized as safe (GRAS) by the FDA; however, some types, particularly Class III and Class IV, may contain 4-methylimidazole (4-MEI), a compound linked to potential carcinogenic risks in animal studies, sparking debate and further investigation.",
+    "environmental_and_regulation": "Regulatory bodies including the FDA and EFSA have set guidelines for the safe use of caramel color in foods. Environmental concerns related to its production focus on waste disposal and the sourcing of raw materials.",
+    "health_safety_rating": 0.85,
+    "edible": true
+  },
+  "sugar": {
+    "chemical_properties": "Sugar, primarily in the form of sucrose, is a disaccharide composed of glucose and fructose. It is a white crystalline solid, soluble in water, with a sweet taste. The molecular formula is C12H22O11.",
+    "common_uses": "Sugar is commonly used as a sweetener in food and beverages, a preservative in jams and jellies, and as a fermentation substrate in brewing and baking.",
+    "safety_and_controversy": "Sugar consumption is associated with health concerns such as obesity, diabetes, and dental cavities. There are ongoing debates about the effects of high sugar intake on health, leading to some regulatory measures in certain regions.",
+    "environmental_and_regulation": "Sugar production can have significant environmental impacts, including deforestation, pesticide use, and water consumption. Regulations vary by country, with some promoting sustainable agricultural practices.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "artificial flavor": {
+    "chemical_properties": "Artificial flavors are composed of various organic and inorganic compounds, often including esters, aldehydes, and ketones that mimic natural flavors.",
+    "common_uses": "Artificial flavors are widely used in a variety of food and beverage products to enhance taste, including candies, soft drinks, baked goods, and dairy products.",
+    "safety_and_controversy": "The safety of artificial flavors has been evaluated by various health organizations, and while most are considered safe in regulated amounts, some individuals may have sensitivities or allergies.",
+    "environmental_and_regulation": "Regulated by food safety authorities such as the FDA in the United States, artificial flavors must meet safety standards before being approved for use in food products.",
+    "health_safety_rating": 0.85,
+    "edible": true
+  },
+  "malic acid": {
+    "chemical_properties": "Malic acid is a dicarboxylic acid with the molecular formula C4H6O5. It exists in two forms: L-malic acid and D-malic acid, with L-malic acid being the most common in fruits. It is colorless, has a sour taste, and is soluble in water.",
+    "common_uses": "Malic acid is commonly used as a food additive to enhance flavor and preserve freshness. It is also utilized in the cosmetic industry for skin care products and in the pharmaceutical industry for its potential benefits in health supplements.",
+    "safety_and_controversy": "Malic acid is generally recognized as safe (GRAS) by the FDA when used in food products. However, excessive consumption may lead to gastrointestinal discomfort. No major controversies surrounding its safety have been reported.",
+    "environmental_and_regulation": "Malic acid is biodegradable and poses minimal environmental risks. It is regulated under food safety laws but has not been associated with significant environmental pollution.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "maltitol syrup": {
+    "chemical_properties": "Maltitol syrup is a sugar alcohol that is derived from maltose. It is hygroscopic, meaning it can attract moisture from the air, and it has a sweet taste that is similar to sugar but with fewer calories. Its chemical formula is C12H24O11 and it has a low glycemic index.",
+    "common_uses": "Maltitol syrup is commonly used as a sugar substitute in sugar-free and reduced-calorie food products, including candy, baked goods, sauces, and beverages. It is often chosen for its ability to provide sweetness without the high calorie count of traditional sugars.",
+    "safety_and_controversy": "Maltitol syrup is generally recognized as safe when consumed in moderate amounts. However, excessive consumption can lead to digestive issues such as bloating and diarrhea, particularly in individuals sensitive to sugar alcohols. There have been discussions about its effect on blood sugar levels, although it has a lower glycemic index compared to regular sugar.",
+    "environmental_and_regulation": "Maltitol syrup is regulated as a food ingredient in many countries, including the United States and European Union, where it is subjected to safety testing and labeling requirements. Its production process has a lower environmental impact compared to some other sweeteners, but sustainability practices can vary by manufacturer.",
+    "health_safety_rating": "0.80",
+    "edible": true
+  },
+  "acesulfame k": {
+    "chemical_properties": "Acesulfame K, also known as acesulfame potassium, is a calorie-free artificial sweetener that is approximately 200 times sweeter than sucrose. It is composed of a cyclic sulfonamide and potassium salt, with the chemical formula C4H4KNO4S. Acesulfame K is stable under heat and over a range of pH levels, making it suitable for use in various food products.",
+    "common_uses": "Acesulfame K is commonly used as a sugar substitute in a variety of food and beverage products, including soft drinks, baked goods, dairy products, and confections. It is often used in combination with other sweeteners to enhance sweetness without adding calories.",
+    "safety_and_controversy": "Acesulfame K has been approved for use by various health authorities, including the FDA and EFSA. However, some studies have raised concerns about potential health effects, including links to certain health conditions, although no conclusive evidence has been established. Ongoing research continues to assess its long-term safety.",
+    "environmental_and_regulation": "Acesulfame K is regulated by food safety authorities worldwide and is considered safe for consumption at established levels. Environmental concerns regarding its persistence in water systems have been studied, but current regulatory frameworks deem it acceptable for use.",
+    "health_safety_rating": 0.9,
     "edible": true
   }
 }

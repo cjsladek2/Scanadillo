@@ -151,7 +151,10 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
 
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-xl font-semibold mb-4">Upload Ingredients List</h2>
+      <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-green-600 select-none mb-6">
+        Upload Ingredients List
+      </h2>
+
 
       {/* ===============================
           Error Display

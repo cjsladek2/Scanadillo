@@ -85,8 +85,8 @@ export default function IngredientList({ analysisData }) {
       {/* ---------- Ingredients List ---------- */}
       <div className="space-y-3">
         <div className="flex items-center justify-between">
-          <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-            Detected Ingredients ({ingredients.length})
+          <h3 className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-green-500">
+              Detected Ingredients ({ingredients.length})
           </h3>
 
           {/* Sorting Dropdown */}
