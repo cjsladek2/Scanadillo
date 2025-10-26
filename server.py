@@ -309,6 +309,9 @@ def chat_with_ingredients():
         print("Chat error:", e)
         return jsonify({"success": False, "error": str(e)})
 
+@app.route("/")
+def ping():
+    return "OK", 200
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, debug=True)
