@@ -6,11 +6,15 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
   const [cameraActive, setCameraActive] = useState(false);
   const [videoReady, setVideoReady] = useState(false);
   const [analyzing, setAnalyzing] = useState(false);
+  const [error, setError] = useState(null);
 
   const videoRef = useRef(null);
   const streamRef = useRef(null);
 
-  const startCamera = () => setCameraActive(true);
+  const startCamera = () => {
+    setCameraActive(true);
+    setError(null); // Clear any previous errors
+  };
 
   useEffect(() => {
     if (cameraActive && videoRef.current && !streamRef.current) {
@@ -33,13 +37,13 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
             .then(() => setVideoReady(true))
             .catch((err) => {
               console.error("Play error:", err);
-              alert("Could not play video: " + err.message);
+              setError("Could not play video: " + err.message);
             });
         };
       }
     } catch (err) {
       console.error("Error accessing camera:", err);
-      alert("Could not access camera. Please check permissions.");
+      setError("Could not access camera. Please check permissions.");
       setCameraActive(false);
     }
   };
@@ -54,9 +58,11 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
     setVideoReady(false);
   };
 
-  // 🔧 Updated logic for analysis
+  // 🔧 Updated logic for analysis with error handling
   const analyzeImage = async (imageData) => {
     setAnalyzing(true);
+    setError(null); // Clear previous errors
+    
     try {
       const response = await fetch("http://localhost:8000/api/analyze-image", {
         method: "POST",
@@ -64,34 +70,30 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
         body: JSON.stringify({ image: imageData }),
       });
 
-      if (!response.ok) {
-        const errText = await response.text();
-        console.error("❌ Server error:", errText);
-        alert("Server error: " + response.status);
-        setAnalyzing(false);
-        return;
-      }
-
       const result = await response.json();
       console.log("🧠 AI result:", result);
 
       if (result.success) {
-        // ✅ Call the parent handler to update the ingredient list
+        // ✅ Success - pass data to parent and DON'T auto-switch tabs
         onIngredientsAnalyzed(result);
+        setError(null);
       } else {
-        alert("Error analyzing image: " + result.error);
+        // ❌ Error from API - display it but DON'T switch tabs
+        setError(result.error || "Failed to analyze ingredients");
+        onIngredientsAnalyzed(null); // Clear any previous data
       }
     } catch (error) {
       console.error("API Error:", error);
-      alert("Could not connect to analysis server. Make sure the Python API is running on port 8000.");
+      setError("Could not connect to the server. Make sure the API is running on port 8000.");
+      onIngredientsAnalyzed(null);
     } finally {
-      setAnalyzing(false); // ✅ Always stop loading spinner
+      setAnalyzing(false);
     }
   };
 
   const takePhoto = () => {
     if (!videoRef.current || !videoReady) {
-      alert("Video not ready yet, try again.");
+      setError("Video not ready yet, please try again.");
       return;
     }
 
@@ -136,8 +138,15 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
 
   function handleUploadNew() {
     setSelectedImage(null);
+    setError(null);
     localStorage.removeItem("uploadedImage");
     onIngredientsAnalyzed(null);
+  }
+
+  function handleTryAgain() {
+    setError(null);
+    setSelectedImage(null);
+    localStorage.removeItem("uploadedImage");
   }
 
   return (
@@ -145,7 +154,44 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
       <h2 className="text-xl font-semibold mb-4">Upload Ingredients List</h2>
 
       {/* ===============================
-          Reversed Button Order + Sizes
+          Error Display
+      =============================== */}
+      {error && (
+        <div className="mb-6 w-full max-w-2xl bg-red-50 dark:bg-red-900/20 border-2 border-red-300 dark:border-red-800 rounded-xl p-4 animate-fade-in">
+          <div className="flex items-start space-x-3">
+            <div className="flex-shrink-0">
+              <svg className="h-6 w-6 text-red-600 dark:text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+            </div>
+            <div className="flex-1">
+              <h3 className="text-sm font-semibold text-red-800 dark:text-red-300 mb-1">
+                Unable to Analyze Image
+              </h3>
+              <p className="text-sm text-red-700 dark:text-red-400">
+                {error}
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 flex space-x-3">
+            <button
+              onClick={handleTryAgain}
+              className="px-4 py-2 bg-red-600 hover:bg-red-700 text-white text-sm font-medium rounded-lg transition-colors"
+            >
+              Try Another Image
+            </button>
+            <button
+              onClick={() => setError(null)}
+              className="px-4 py-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 text-sm font-medium rounded-lg transition-colors"
+            >
+              Dismiss
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* ===============================
+          Upload Buttons
       =============================== */}
       {!selectedImage && !cameraActive && (
         <div className="flex flex-col space-y-4">
@@ -177,7 +223,7 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
       )}
 
       {/* ===============================
-          Camera preview
+          Camera Preview
       =============================== */}
       {cameraActive && (
         <div className="flex flex-col items-center space-y-4 w-full max-w-2xl">
@@ -217,7 +263,7 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
       )}
 
       {/* ===============================
-          Preview + Re-upload
+          Image Preview + Status
       =============================== */}
       {selectedImage && (
         <div className="flex flex-col items-center">
@@ -241,7 +287,7 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
             </div>
           )}
 
-          {!analyzing && (
+          {!analyzing && !error && (
             <button
               onClick={handleUploadNew}
               className="mt-6 px-6 py-3 bg-gradient-to-r from-indigo-500 to-green-400 text-white rounded-full hover:shadow-md transition-all font-semibold"

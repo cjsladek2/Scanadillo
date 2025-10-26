@@ -19,16 +19,16 @@ export default function Home() {
   }, []);
 
   // 🧱 Prevent focus-based scroll jumps globally
-useEffect(() => {
-  const preventFocusScroll = () => {
-    const x = window.scrollX;
-    const y = window.scrollY;
-    requestAnimationFrame(() => window.scrollTo(x, y));
-  };
+  useEffect(() => {
+    const preventFocusScroll = () => {
+      const x = window.scrollX;
+      const y = window.scrollY;
+      requestAnimationFrame(() => window.scrollTo(x, y));
+    };
 
-  window.addEventListener("focusin", preventFocusScroll);
-  return () => window.removeEventListener("focusin", preventFocusScroll);
-}, []);
+    window.addEventListener("focusin", preventFocusScroll);
+    return () => window.removeEventListener("focusin", preventFocusScroll);
+  }, []);
 
   const tabs = [
     { id: "image", label: "Scan Label" },
@@ -36,38 +36,46 @@ useEffect(() => {
     { id: "chat", label: "Health Chat" },
   ];
 
+  // ✅ Updated to prevent auto-switch on error
   const handleIngredientsAnalyzed = (data) => {
     setAnalysisData(data);
-    if (data && data.success) setActiveTab("ingredients");
+    // Only auto-switch to ingredients tab if analysis was successful
+    if (data && data.success) {
+      // Save scroll position before switching
+      const currentScroll = window.scrollY;
+      setActiveTab("ingredients");
+      requestAnimationFrame(() => window.scrollTo(0, currentScroll));
+    }
+    // If data is null or has an error, stay on the image tab
   };
 
-const handleTabClick = (tabId) => {
-  // Save current scroll position
-  const x = window.scrollX;
-  const y = window.scrollY;
+  const handleTabClick = (tabId) => {
+    // Save current scroll position
+    const x = window.scrollX;
+    const y = window.scrollY;
 
-  // Temporarily freeze the viewport
-  const html = document.documentElement;
-  const body = document.body;
-  const prevOverflow = body.style.overflow;
-  const prevScrollBehavior = html.style.scrollBehavior;
+    // Temporarily freeze the viewport
+    const html = document.documentElement;
+    const body = document.body;
+    const prevOverflow = body.style.overflow;
+    const prevScrollBehavior = html.style.scrollBehavior;
 
-  body.style.overflow = "hidden";        // prevent scroll events entirely
-  html.style.scrollBehavior = "auto";    // stop smooth scroll animations
+    body.style.overflow = "hidden";
+    html.style.scrollBehavior = "auto";
 
-  // Switch tab
-  setActiveTab(tabId);
+    // Switch tab
+    setActiveTab(tabId);
 
-  // Restore position + unlock scroll after reflow
-  requestAnimationFrame(() => {
-    window.scrollTo(x, y);
-    setTimeout(() => {
+    // Restore position + unlock scroll after reflow
+    requestAnimationFrame(() => {
       window.scrollTo(x, y);
-      body.style.overflow = prevOverflow;
-      html.style.scrollBehavior = prevScrollBehavior;
-    }, 120);
-  });
-};
+      setTimeout(() => {
+        window.scrollTo(x, y);
+        body.style.overflow = prevOverflow;
+        html.style.scrollBehavior = prevScrollBehavior;
+      }, 120);
+    });
+  };
 
   return (
     <>
@@ -87,7 +95,7 @@ const handleTabClick = (tabId) => {
           </h2>
 
           <p className="mt-6 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-lg animate-fade-in-up">
-            Curl up in safety. Just as an armadillo’s shell defends its body while its nose reveals the unseen, Scanadillo protects you by sensing dangers buried deep within the ingredients lists of your favorite snacks, personal hygiene products, and cosmetics.
+            Curl up in safety. Just as an armadillo's shell defends its body while its nose reveals the unseen, Scanadillo protects you by sensing dangers buried deep within the ingredients lists of your favorite snacks, personal hygiene products, and cosmetics.
           </p>
 
           {/* Tabs */}
@@ -97,9 +105,9 @@ const handleTabClick = (tabId) => {
                 key={tab.id}
                 onClick={(e) => {
                   e.preventDefault();
-                  // Prevent automatic scroll-to-bottom when switching to Health Chat
+                  // Prevent automatic scroll when switching tabs
                   const currentScroll = window.scrollY;
-                  setActiveTab(tab.id);
+                  handleTabClick(tab.id);
                   requestAnimationFrame(() => window.scrollTo(0, currentScroll));
                 }}
                 className={`px-7 py-3 rounded-full text-base font-semibold transition-all duration-300 
@@ -133,7 +141,7 @@ const handleTabClick = (tabId) => {
           <div className="glass p-10 rounded-3xl shadow-xl animate-fade-in-up">
             {activeTab === "image" && (
               <div id="scan-section">
-                <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-green-500">
+                <h3 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-green-500">
                   Image Scanner
                 </h3>
                 <ImageUpload onIngredientsAnalyzed={handleIngredientsAnalyzed} />
@@ -142,7 +150,7 @@ const handleTabClick = (tabId) => {
 
             {activeTab === "ingredients" && (
               <div id="ingredients-section">
-                <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-green-500">
+                <h3 className="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-green-500">
                   Ingredients Overview
                 </h3>
                 {analysisData && analysisData.success ? (

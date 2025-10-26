@@ -4,47 +4,35 @@ import openai
 import base64
 import os
 from dotenv import load_dotenv
-from ingredx.engine import IngredientEngine   # adjust path if needed
+from ingredx.engine import IngredientEngine
 
-# ✅ Load environment variables from .env
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# ✅ Create Flask app
 app = Flask(__name__)
 CORS(app)
 
-# ✅ Initialize ingredient engine
 engine = IngredientEngine()
 
 
 @app.route("/api/analyze-image", methods=["POST"])
 def analyze_image():
     if "image" in request.files:
-        # ---------- Image preprocessing (enhance OCR accuracy) ----------
         from PIL import Image, ImageEnhance, ImageFilter
         import io
         import cv2
         import numpy as np
 
         img_bytes = request.files["image"].read()
-        img = Image.open(io.BytesIO(img_bytes)).convert("L")  # grayscale
+        img = Image.open(io.BytesIO(img_bytes)).convert("L")
 
-        # Enhance contrast and sharpness
         img = ImageEnhance.Contrast(img).enhance(2.0)
         img = img.filter(ImageFilter.SHARPEN)
 
-        # Denoise using OpenCV
         img_cv = np.array(img)
         img_cv = cv2.fastNlMeansDenoising(img_cv, None, 30, 7, 21)
-
-        # Optional super-resolution repair for faint or torn text
         img_cv = cv2.resize(img_cv, None, fx=2.0, fy=2.0, interpolation=cv2.INTER_CUBIC)
-
-        # Minor blur to smooth torn edges before thresholding
         img_cv = cv2.GaussianBlur(img_cv, (3, 3), 0)
-
-        # Adaptive threshold to make black text stand out on glossy backgrounds
         img_cv = cv2.adaptiveThreshold(
             img_cv,
             255,
@@ -53,25 +41,25 @@ def analyze_image():
             35, 11
         )
 
-        # Morphological repair for vertically sliced or thin letters
         kernel = np.ones((2, 2), np.uint8)
         img_cv = cv2.dilate(img_cv, kernel, iterations=1)
 
-        # Optional: contour-based line thickening (helps reconnect broken verticals)
         contours, _ = cv2.findContours(img_cv, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         for cnt in contours:
             x, y, w, h = cv2.boundingRect(cnt)
             if h > 10 and w < 5:
                 cv2.rectangle(img_cv, (x, y), (x + w, y + h), 255, -1)
 
-        # Encode back to base64
         _, buffer = cv2.imencode(".png", img_cv)
         img_b64 = base64.b64encode(buffer).decode("utf-8")
 
     else:
         data = request.get_json()
         if not data or "image" not in data:
-            return jsonify({"success": False, "error": "No image found"}), 400
+            return jsonify({
+                "success": False, 
+                "error": "No image provided. Please upload or take a photo."
+            }), 400
         img_b64 = data["image"].split(",")[1] if "," in data["image"] else data["image"]
 
     # ---------- STEP 1: OCR with GPT-4o ----------
@@ -88,35 +76,63 @@ def analyze_image():
     4. Ignore non-ingredient text (usage instructions, brand names, etc.).
     5. Return ONLY one comma-separated list of complete ingredient names, correctly spelled.
     Example output: "Aqua, Glycerin, Sodium Isostearate, Sodium Hyaluronate"
+    
+    IMPORTANT: If the image contains NO ingredient list or NO readable text, respond with exactly: "NO_INGREDIENTS_FOUND"
     """
 
-    ocr_response = openai.chat.completions.create(
-        model="gpt-4o",
-        messages=[{
-            "role": "user",
-            "content": [
-                {"type": "text", "text": ocr_prompt},
-                {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{img_b64}"}}
-            ]
-        }]
-    )
+    try:
+        ocr_response = openai.chat.completions.create(
+            model="gpt-4o",
+            messages=[{
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": ocr_prompt},
+                    {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{img_b64}"}}
+                ]
+            }],
+            max_tokens=500
+        )
 
-    raw_text = ocr_response.choices[0].message.content.strip()
-    print("🧾 Raw OCR result:", raw_text)
+        raw_text = ocr_response.choices[0].message.content.strip()
+        print("🧾 Raw OCR result:", raw_text)
 
-    # ---------- Safety: Check if OCR found any text ----------
-    if not raw_text or len(raw_text.strip()) == 0 or raw_text.lower() in ["none", "null"]:
+    except Exception as e:
+        print(f"❌ OCR Error: {e}")
         return jsonify({
             "success": False,
-            "error": "No text detected in the image. Please try again with a clearer photo or better lighting."
+            "error": "Failed to process image. Please try again with a clearer photo."
+        }), 500
+
+    # ---------- Enhanced Empty Text Checks ----------
+    import re
+    
+    # Check if GPT explicitly said no ingredients
+    if "NO_INGREDIENTS_FOUND" in raw_text.upper():
+        return jsonify({
+            "success": False,
+            "error": "No ingredient list detected in this image. Please upload a photo showing the ingredients label clearly."
         }), 400
 
-    # Additional safeguard: if GPT returned only punctuation or numbers
-    import re
-    if not re.search(r"[a-zA-Z]", raw_text):
+    # Check if text is empty or too short
+    if not raw_text or len(raw_text.strip()) < 3:
         return jsonify({
             "success": False,
-            "error": "No readable text detected — please upload a higher-quality label image."
+            "error": "No readable text found. Please ensure the image is clear and well-lit."
+        }), 400
+
+    # Check if response is just punctuation/special characters
+    if not re.search(r"[a-zA-Z]{2,}", raw_text):
+        return jsonify({
+            "success": False,
+            "error": "No ingredient names detected. Please upload a photo of the ingredients label."
+        }), 400
+
+    # Check for common "failed OCR" responses
+    failed_responses = ["none", "null", "n/a", "not found", "no text", "unclear", "unreadable"]
+    if raw_text.lower().strip() in failed_responses:
+        return jsonify({
+            "success": False,
+            "error": "Could not read ingredients from this image. Try taking a clearer photo with better lighting."
         }), 400
 
     # ---------- STEP 2: Verification & Cleanup ----------
@@ -128,15 +144,32 @@ def analyze_image():
     expand abbreviations (e.g., 'NaCl' → 'Salt' if applicable),
     and remove any non-ingredient words or metadata such as "Contains", "Tested under dermatological control", or "Manufactured by".
     Preserve the order and return only a single, clean, comma-separated list of valid ingredient names.
+    
+    If NO valid ingredients exist in the text, respond with exactly: "NO_VALID_INGREDIENTS"
     """
 
-    verify_response = openai.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[{"role": "user", "content": verify_prompt}],
-    )
+    try:
+        verify_response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": verify_prompt}],
+        )
 
-    cleaned_text = verify_response.choices[0].message.content.strip()
-    print("✨ Verified ingredient text:", cleaned_text)
+        cleaned_text = verify_response.choices[0].message.content.strip()
+        print("✨ Verified ingredient text:", cleaned_text)
+
+    except Exception as e:
+        print(f"❌ Verification Error: {e}")
+        return jsonify({
+            "success": False,
+            "error": "Failed to verify ingredients. Please try again."
+        }), 500
+
+    # Check if verification found no valid ingredients
+    if "NO_VALID_INGREDIENTS" in cleaned_text.upper():
+        return jsonify({
+            "success": False,
+            "error": "No valid ingredients found in the extracted text. Please upload a clearer photo of the ingredients label."
+        }), 400
 
     # ---------- STEP 3: Final Structural and Consistency Check ----------
     format_check_prompt = f"""
@@ -154,17 +187,29 @@ def analyze_image():
     "Water, Sodium Lauryl Sulfate, Cocamidopropyl Betaine, Citric Acid"
     """
 
-    format_response = openai.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[{"role": "user", "content": format_check_prompt}],
-    )
+    try:
+        format_response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": format_check_prompt}],
+        )
 
-    final_text = format_response.choices[0].message.content.strip()
-    print("✅ Final verified list:", final_text)
+        final_text = format_response.choices[0].message.content.strip()
+        print("✅ Final verified list:", final_text)
 
-    # ---------- STEP 4: Join any '-yl' fragments (AFTER GPT cleanup) ----------
-    import re
+    except Exception as e:
+        print(f"❌ Format Check Error: {e}")
+        final_text = cleaned_text  # Fallback to cleaned text
+
+    # ---------- STEP 4: Join any '-yl' fragments ----------
     parts = [p.strip() for p in final_text.split(",") if p.strip()]
+    
+    # Final check: ensure we have at least one ingredient
+    if len(parts) == 0:
+        return jsonify({
+            "success": False,
+            "error": "No ingredients could be identified. Please upload a photo showing the ingredients label clearly."
+        }), 400
+
     merged = []
     i = 0
     while i < len(parts):
@@ -180,10 +225,35 @@ def analyze_image():
     print("🔗 After merging '-yl' fragments:", final_text)
 
     # ---------- STEP 5: Analyze ingredients ----------
-    results = engine.analyze_ingredient_list(final_text)
-    return jsonify({"success": True, "raw_text": final_text, **results})
+    try:
+        results = engine.analyze_ingredient_list(final_text)
+        
+        # Check if engine returned an error
+        if "error" in results:
+            return jsonify({
+                "success": False,
+                "error": results["error"],
+                "raw_text": final_text
+            }), 400
+        
+        # Verify we actually got ingredients
+        if not results.get("ingredients") or len(results["ingredients"]) == 0:
+            return jsonify({
+                "success": False,
+                "error": "No ingredients could be analyzed. Please try uploading a different image.",
+                "raw_text": final_text
+            }), 400
+        
+        return jsonify({"success": True, "raw_text": final_text, **results})
+        
+    except Exception as e:
+        print(f"❌ Analysis Error: {e}")
+        return jsonify({
+            "success": False,
+            "error": f"Failed to analyze ingredients: {str(e)}"
+        }), 500
 
-# 🧠 Chat route for ingredient-aware chatbot
+
 @app.route("/api/chat", methods=["POST"])
 def chat_with_ingredients():
     data = request.get_json()
@@ -194,7 +264,7 @@ def chat_with_ingredients():
 
     if not question:
         return jsonify({"success": False, "error": "No question provided"}), 400
-    # 🧠 If no ingredients were provided, still allow general conversation
+
     if not ingredients:
         context_note = (
             "No ingredient context was provided. "
@@ -238,6 +308,7 @@ def chat_with_ingredients():
     except Exception as e:
         print("Chat error:", e)
         return jsonify({"success": False, "error": str(e)})
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000, debug=True)
