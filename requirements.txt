@@ -1,18 +1,30 @@
+# -------------------------------
+# Core Web Framework + Server
+# -------------------------------
 Flask==3.0.3
-Flask-Cors==4.0.0
+Flask-Cors==4.0.1
+gunicorn==22.0.0
 
-openai==0.28.1
-python-dotenv==1.0.1
-
+# -------------------------------
+# Image Processing & OCR Support
+# -------------------------------
 Pillow==10.4.0
-opencv-python-headless==4.10.0.84
+opencv-python-headless==4.10.0.84   # headless avoids GUI errors on Render
 numpy==1.26.4
 
+# -------------------------------
+# Environment & Utilities
+# -------------------------------
+python-dotenv==1.0.1
 requests==2.32.3
 
-concurrent-log-handler==0.9.24
+# -------------------------------
+# Concurrency, Typing, and Helpers
+# -------------------------------
+pydantic==2.9.2
+typing-extensions==4.12.2
 
-futures==3.0.5 ; python_version<"3.9"
-
-pydantic>=2.0.0
-gunicorn==22.0.0  # production WSGI server
+# -------------------------------
+# OpenAI API + AI Integrations
+# -------------------------------
+openai==1.42.0
