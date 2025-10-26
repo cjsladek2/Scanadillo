@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Scanadillo",
   description: "Scan ingredients. Discover insights.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -54,3 +57,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

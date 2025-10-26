@@ -558,5 +558,141 @@
     "environmental_and_regulation": "Example: Generally recognized as safe (GRAS) by the FDA, but high production can have environmental impacts.",
     "health_safety_rating": 0.9,
     "edible": true
+  },
+  "thiamine mononitrate": {
+    "chemical_properties": "Thiamine mononitrate is the nitrate salt of thiamine (vitamin B1). It is a white crystalline powder that is soluble in water and has a molar mass of 337.3 g/mol.",
+    "common_uses": "Thiamine mononitrate is commonly used as a dietary supplement and food additive to fortify foods with vitamin B1. It is often found in bread, cereals, and nutritional supplements.",
+    "safety_and_controversy": "Thiamine mononitrate is generally recognized as safe (GRAS) when used as directed. It has a low toxicity profile and adverse effects are rare, primarily occurring in cases of extreme overdose.",
+    "environmental_and_regulation": "Thiamine mononitrate is regulated by food safety authorities and is permissible as a food additive in many countries. It does not pose a significant environmental risk.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "malted barley flour": {
+    "chemical_properties": "Malted barley flour primarily consists of carbohydrates, proteins, and dietary fiber, with enzymes like amylase that aid in the breakdown of starches. It contains maltose and various amino acids developed during the malting process.",
+    "common_uses": "Malted barley flour is commonly used in baking, brewing, and as a flavoring agent in various food products. It is often added to bread, pastries, and confections to enhance flavor and improve fermentation.",
+    "safety_and_controversy": "Malted barley flour is generally recognized as safe for consumption. However, it may pose risks for individuals with celiac disease or gluten intolerance, as it contains gluten. There are no significant controversies surrounding its use in food products.",
+    "environmental_and_regulation": "Malted barley flour production is subject to agricultural regulations regarding the use of pesticides and fertilizers. Sustainable farming practices are encouraged to minimize environmental impact, but industrial production can lead to concerns about monoculture and soil health.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "niacin": {
+    "chemical_properties": "Niacin, also known as vitamin B3, has the chemical formula C6H5N3O2. It is a water-soluble vitamin that exists in two forms: nicotinic acid and nicotinamide (niacinamide). Both forms are biologically active and have similar functions in the body, including participation in redox reactions as a coenzyme.",
+    "common_uses": "Niacin is commonly used as a dietary supplement to treat niacin deficiency, which can cause pellagra. It is also used to lower cholesterol levels, improve cardiovascular health, and support brain function. Furthermore, it is found in food sources such as meat, fish, nuts, and whole grains.",
+    "safety_and_controversy": "Niacin is generally recognized as safe when taken at recommended doses. However, high doses can lead to side effects such as flushing, gastrointestinal distress, and liver toxicity. There have been debates regarding its effectiveness in cholesterol management and potential risks at high intake levels.",
+    "environmental_and_regulation": "Niacin is not known to pose significant environmental risks and is generally considered safe for public health. It is regulated as a dietary supplement in many countries, including the United States, where it is recognized as a necessary nutrient.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "ascorbic acid": {
+    "chemical_properties": "Ascorbic acid, also known as vitamin C, is a water-soluble vitamin with the molecular formula C6H8O6. It is a white crystalline powder or a colorless, transparent liquid that is highly soluble in water. It has antioxidant properties, helping to neutralize free radicals in the body.",
+    "common_uses": "Ascorbic acid is commonly used as a dietary supplement to prevent or treat scurvy, an illness caused by vitamin C deficiency. It is also used as a food preservative and flavor enhancer, as well as in the formulation of skincare products due to its antioxidant properties.",
+    "safety_and_controversy": "Ascorbic acid is generally recognized as safe when consumed in recommended amounts. High doses can lead to gastrointestinal disturbances and other side effects, but it is not considered toxic at normal dietary levels. There is little controversy associated with its use in food and supplements.",
+    "environmental_and_regulation": "Ascorbic acid is regulated as a food additive and dietary supplement. It has a low environmental impact and is biodegradable. Regulatory agencies like the FDA endorse its use in food products due to its safety profile.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "enriched unbleached flour": {
+    "chemical_properties": "Enriched unbleached flour is primarily composed of carbohydrates (mainly starch), proteins (gluten), and small amounts of fat, vitamins, and minerals. The enrichment process typically involves the addition of iron, niacin, thiamine, riboflavin, and folic acid to enhance nutritional value.",
+    "common_uses": "This ingredient is commonly used in baking bread, pastries, cakes, and other baked goods. It serves as a basic ingredient in many recipes and is often used for thickening sauces and soups.",
+    "safety_and_controversy": "Enriched unbleached flour is generally recognized as safe for consumption. However, some individuals may have gluten intolerances or sensitivities, such as celiac disease, which can lead to health issues when consuming gluten-containing products. There is also ongoing debate regarding the health impacts of refined grains versus whole grains.",
+    "environmental_and_regulation": "The production of enriched unbleached flour follows food safety guidelines regulated by authorities such as the FDA. Environmental concerns are generally minimal, although the agricultural practices involved in growing wheat may have implications regarding sustainability and pesticide use.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "reduced iron": {
+    "chemical_properties": "Reduced iron is a form of iron that has been reduced to its elemental state, often produced through the reduction of iron oxides. It appears as a fine, reddish-brown powder and is highly reactive, especially in the presence of moisture.",
+    "common_uses": "Reduced iron is primarily used as a food additive to provide supplemental iron in various fortified foods, as well as in dietary supplements. It can also be used in the production of iron powders for industrial applications.",
+    "safety_and_controversy": "Reduced iron is generally recognized as safe when consumed in appropriate amounts, although excessive intake can lead to iron overload and associated health issues. There is minimal controversy surrounding its use in food products.",
+    "environmental_and_regulation": "In various jurisdictions, reduced iron is subject to food safety regulations that ensure it meets safety standards for human consumption. Environmental regulations may pertain to its production process, particularly regarding emissions and waste management.",
+    "health_safety_rating": "0.80",
+    "edible": true
+  },
+  "riboflavin": {
+    "chemical_properties": "Riboflavin, also known as vitamin B2, is a water-soluble B vitamin with the molecular formula C17H20N4O6. It is a yellow-orange crystalline solid that is soluble in water and has a melting point of approximately 280\u00b0C. Riboflavin is involved in energy production and the metabolism of fats, drugs, and steroids.",
+    "common_uses": "Riboflavin is commonly used as a dietary supplement and food additive. It is added to cereals, energy drinks, and other fortified foods for its nutritional benefits. Additionally, it is used in animal feed to promote growth in livestock.",
+    "safety_and_controversy": "Riboflavin is generally recognized as safe when consumed in appropriate amounts through diet and supplements. There are no known serious side effects associated with riboflavin, although very high doses may lead to riboflavin urine coloration. It does not have significant controversies regarding its safety.",
+    "environmental_and_regulation": "Riboflavin is regulated by food safety authorities in various countries, including the FDA and EFSA. It is allowed as a food additive in many regions, and its production processes adhere to safety and environmental regulations.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "salt": {
+    "chemical_properties": "Sodium chloride (NaCl), a white crystalline substance that is highly soluble in water, with a typical ionic bond structure.",
+    "common_uses": "Primarily used as a seasoning and preservative in food, as well as in various industrial processes, de-icing roads, and water softening.",
+    "safety_and_controversy": "Generally regarded as safe in moderate amounts; however, excessive consumption is linked to health issues such as hypertension and cardiovascular disease.",
+    "environmental_and_regulation": "Salt is regulated to prevent excessive environmental impact, particularly in water bodies, where runoff can lead to salinization.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "folic acid": {
+    "chemical_properties": "Folic Acid, also known as Vitamin B9, is a water-soluble vitamin involved in the synthesis of nucleic acids and amino acids. It is stable under heat and does not easily break down in acidic or alkaline environments.",
+    "common_uses": "Folic Acid is commonly used as a dietary supplement to prevent and treat folate deficiency and is crucial during pregnancy for fetal development. It is also added to fortified foods such as cereals and bread.",
+    "safety_and_controversy": "Folic Acid is generally recognized as safe when taken in recommended amounts. However, excessive intake from supplements may mask vitamin B12 deficiency symptoms and could be linked to certain health concerns in some populations.",
+    "environmental_and_regulation": "Folic Acid is regulated as a food additive in many countries and is included in various government dietary guidelines as essential for health. Its use in fortifying foods is widely accepted.",
+    "health_safety_rating": 0.95,
+    "edible": true
+  },
+  "sugar": {
+    "chemical_properties": "Sugar, primarily sucrose, is a carbohydrate composed of glucose and fructose. It is a white crystalline substance that is soluble in water and has a sweet taste.",
+    "common_uses": "Sugar is widely used as a sweetener in foods and beverages, as well as a preservative in jams and jellies. It is also used in baking, cooking, and as a fermentable substrate in the production of alcoholic beverages.",
+    "safety_and_controversy": "While sugar is generally recognized as safe for consumption, excessive intake is associated with various health issues, including obesity, diabetes, and dental cavities. There is ongoing debate about sugar's role in health and nutrition, with some advocacy for reducing sugar consumption.",
+    "environmental_and_regulation": "Sugar production can lead to environmental concerns such as deforestation, water consumption, and pesticide use, depending on the farming practices employed. Regulatory measures vary by country, focusing on labeling and advertising standards.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "leavening": {
+    "chemical_properties": "Leavening agents primarily consist of compounds that produce gas (commonly carbon dioxide) when mixed with moisture and an acid. Common chemical leaveners include sodium bicarbonate (baking soda), potassium bicarbonate, and various acids such as cream of tartar.",
+    "common_uses": "Leavening is commonly used in baking to produce light and fluffy baked goods such as bread, cakes, muffins, and cookies. It is essential for creating the desired texture and volume in these products.",
+    "safety_and_controversy": "Leavening agents are generally considered safe for consumption. However, excessive intake of sodium bicarbonate can lead to health issues such as metabolic alkalosis. There's minimal controversy surrounding their use in food, but some consumers prefer natural leavening alternatives.",
+    "environmental_and_regulation": "Leavening agents are regulated by food safety authorities such as the FDA in the United States, which ensures their safety for human consumption. Environmental concerns are minimal as they are naturally occurring or synthetically produced in safe quantities.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "degermed yellow cornmeal": {
+    "chemical_properties": "Degermed yellow cornmeal is primarily composed of carbohydrates, with a notable amount of fiber, protein, and essential minerals such as magnesium and phosphorus. It is gluten-free and contains small amounts of various vitamins, including B vitamins.",
+    "common_uses": "Degermed yellow cornmeal is commonly used in baking, as a breading for fried foods, in polenta, pancakes, and various comfort foods. It is also utilized in making cornbread and as a thickener in soups and stews.",
+    "safety_and_controversy": "Degermed yellow cornmeal has a low risk of allergens and is widely regarded as safe for most individuals. Some concerns may arise regarding potential aflatoxin contamination, which can occur in corn products, but proper sourcing and processing significantly reduce these risks.",
+    "environmental_and_regulation": "Cornmeal production is regulated for food safety, with guidelines in place to minimize pesticide residues and ensure quality control. However, the environmental impact of corn farming, including pesticide use and monoculture practices, has raised concerns about sustainability.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "baking soda": {
+    "chemical_properties": "Baking soda, chemically known as sodium bicarbonate (NaHCO3), is a white crystalline powder that is slightly alkaline and soluble in water. It can react with acids to produce carbon dioxide gas, which is the basis for its use as a leavening agent in baking.",
+    "common_uses": "Baking soda is commonly used as a leavening agent in baking, as a cleaning agent, in deodorizing applications, and as a mild abrasive in personal care products. It is also used in fire extinguishers, and in some medical applications to treat acid indigestion.",
+    "safety_and_controversy": "Baking soda is generally recognized as safe (GRAS) by the U.S. Food and Drug Administration (FDA). However, excessive ingestion can lead to metabolic alkalosis and other health issues. It is important to use it as directed to avoid any adverse effects.",
+    "environmental_and_regulation": "Baking soda has a low environmental impact and is biodegradable. It is not considered hazardous waste and is approved for use in food products by regulatory authorities in various countries.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "sodium acid pyrophosphate": {
+    "chemical_properties": "Sodium acid pyrophosphate (SAPP) is a sodium salt of pyrophosphoric acid. It is a white, water-soluble powder that acts as a leavening agent in food applications. Chemically, it can be represented as Na2H2P2O7.",
+    "common_uses": "SAPP is commonly used as a leavening agent in baked goods, such as cakes and breads, as well as in processed meat products and as a food preservative. It can also be found in some types of instant noodles and snacks.",
+    "safety_and_controversy": "Sodium acid pyrophosphate is generally recognized as safe (GRAS) by the FDA when used in food products at appropriate levels. However, excessive consumption may lead to digestive issues for some individuals, and there are concerns about phosphorus intake in certain populations.",
+    "environmental_and_regulation": "SAPP is not known to pose significant environmental risks and is regulated under food safety laws in several countries. Its production and disposal must comply with environmental regulations, but it is not classified as hazardous waste.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "soybean oil": {
+    "chemical_properties": "Soybean oil is composed primarily of triglycerides, containing mostly polyunsaturated fatty acids, including linoleic acid and alpha-linolenic acid. It is a clear, yellowish liquid at room temperature, and its composition may vary based on processing and the source of the soybeans.",
+    "common_uses": "Soybean oil is widely used in cooking and food preparation. It is a common ingredient in salad dressings, margarine, and various processed foods. Additionally, it is utilized in industrial applications, including biodiesel production and as a lubricant.",
+    "safety_and_controversy": "Soybean oil is generally regarded as safe when used in cooking and food products. However, there are some concerns regarding its high omega-6 fatty acid content and its potential association with inflammation and chronic diseases when consumed in excess. The use of genetically modified soybeans may also raise health and ethical concerns among some consumers.",
+    "environmental_and_regulation": "Soybean cultivation can lead to deforestation and biodiversity loss, particularly in countries where it is grown extensively. Regulatory measures and sustainability initiatives are increasingly being implemented to mitigate environmental impacts. Organic certification is available for soy products to address concerns about pesticide use.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "natural flavor": {
+    "chemical_properties": "Natural flavors are derived from plant or animal sources and can include a variety of compounds that contribute to the aroma and taste of food products. They often consist of essential oils, aroma compounds, and extracts.",
+    "common_uses": "Natural flavors are widely used in the food and beverage industry to enhance the taste and aroma of products such as snacks, beverages, candies, and processed foods.",
+    "safety_and_controversy": "Natural flavors are generally recognized as safe (GRAS) by the FDA, but their sources can vary, leading to concerns among consumers who prefer transparency in ingredient labeling. Some individuals may also have allergic reactions to specific natural flavors.",
+    "environmental_and_regulation": "The production of natural flavors can have varying environmental impacts depending on the source of raw materials. Regulatory bodies, such as the FDA, oversee the safety of these ingredients, but specific regulations can differ by country.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "honey powder": {
+    "chemical_properties": "Honey powder is a dehydrated form of honey, composed mainly of sugars, specifically fructose and glucose. It contains small amounts of vitamins, minerals, and enzymes, with a moisture content usually below 2%.",
+    "common_uses": "Honey powder is commonly used as a natural sweetener in baking, cooking, beverages, and as a flavoring agent in various food products. It is also utilized in dietary supplements and skincare formulations.",
+    "safety_and_controversy": "Honey powder is generally considered safe for consumption, although it should not be given to infants under one year of age due to the risk of botulism. It is important for individuals with allergies to pollen or bee products to exercise caution.",
+    "environmental_and_regulation": "The production of honey powder can impact bee populations; sustainable practices are essential to ensure the health of bee colonies. In some regions, honey production is regulated to ensure quality and safety standards.",
+    "health_safety_rating": 0.9,
+    "edible": true
   }
 }
