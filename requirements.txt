@@ -1,30 +1,32 @@
 # -------------------------------
 # Core Web Framework + Server
 # -------------------------------
-Flask==3.0.3
-Flask-Cors==4.0.1
+Flask==3.1.2
+Flask-Cors==6.0.1
 gunicorn==22.0.0
 
 # -------------------------------
 # Image Processing & OCR Support
 # -------------------------------
 Pillow==10.4.0
-opencv-python-headless==4.10.0.84   # headless avoids GUI errors on Render
+opencv-python-headless==4.10.0.84
 numpy==1.26.4
 
 # -------------------------------
 # Environment & Utilities
 # -------------------------------
-python-dotenv==1.0.1
+python-dotenv==1.2.1
 requests==2.32.3
 
 # -------------------------------
-# Concurrency, Typing, and Helpers
+# Typing, Models, and Helpers
 # -------------------------------
-pydantic==2.9.2
-typing-extensions==4.12.2
+pydantic==2.12.3
+typing-extensions==4.15.0
+tqdm==4.67.1
+orjson==3.10.7
 
 # -------------------------------
-# OpenAI API + AI Integrations
+# OpenAI API
 # -------------------------------
-openai==1.42.0
+openai==2.6.1
