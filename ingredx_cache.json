@@ -1,73 +1,73 @@
 {
   "phosphoric acid": {
-    "chemical_properties": "Phosphoric acid is a colorless, odorless liquid with a syrupy consistency. It is a triprotic acid, meaning it can donate three protons (H+) and has a chemical formula of H3PO4. This acid is characterized by its acidic taste and is soluble in water.",
-    "common_uses": "Phosphoric acid is commonly used in food and beverage applications, particularly as a food additive for flavor enhancement and as a preservative. It is also utilized in fertilizers, rust removal products, and as a pH adjuster in various industrial processes.",
-    "safety_and_controversy": "While phosphoric acid is generally recognized as safe for use in food products, concerns have been raised regarding its potential role in bone health issues and its effects when consumed in large quantities. The main controversies stem from its use in carbonated beverages and its long-term health implications.",
-    "environmental_and_regulation": "Regulatory agencies such as the FDA have established guidelines for the safe use of phosphoric acid in food products. From an environmental perspective, phosphoric acid can contribute to water pollution if not disposed of properly, as it can lead to eutrophication in aquatic systems.",
-    "health_safety_rating": "0.85",
+    "chemical_properties": "Phosphoric acid is a colorless, odorless, and tasteless liquid with the chemical formula H3PO4. It is a triprotic acid, meaning it can donate three protons (H+) in solution; it is moderately strong and is commonly used as an acidulant.",
+    "common_uses": "Phosphoric acid is widely used in the food industry as an acidulant, flavoring agent, and preservative. It is found in soft drinks, processed foods, and can also be used in dental products and rust removal products.",
+    "safety_and_controversy": "Phosphoric acid is generally recognized as safe (GRAS) when used in food and beverages, but there are some concerns regarding its potential to contribute to bone loss and its effects when consumed in high quantities. Some studies suggest that excessive intake may be linked to negative health outcomes.",
+    "environmental_and_regulation": "Phosphoric acid is regulated under various environmental laws, including the Clean Water Act in the United States. It is considered safe for use within established guidelines, but excess runoff can lead to eutrophication in water bodies.",
+    "health_safety_rating": 0.85,
     "edible": true
   },
   "carbonated water": {
-    "chemical_properties": "Carbonated water is water into which carbon dioxide gas has been dissolved under pressure. This process forms carbonic acid, which gives carbonated water its characteristic tart flavor. The pH of carbonated water typically ranges from 3 to 4.",
-    "common_uses": "Carbonated water is commonly used as a refreshing beverage on its own or as a mixer in cocktails and other drinks. It is also used in cooking and baking for its ability to add lightness to batters and provide fizz to various recipes.",
-    "safety_and_controversy": "Carbonated water is generally recognized as safe for consumption. However, some individuals may experience bloating or discomfort from carbonation. It does not contain sugars or calories, making it a popular alternative to sugary sodas; however, excessive consumption may lead to dental erosion due to its acidity.",
-    "environmental_and_regulation": "The production of carbonated water can have a lower environmental impact compared to sugary beverages, especially if sourced sustainably. Regulations regarding the bottling and labeling of carbonated water vary by region but generally include guidelines to ensure water safety and quality.",
+    "chemical_properties": "Carbonated water, also known as soda water, sparkling water, or fizzy water, is water into which carbon dioxide gas under pressure has been dissolved. It has a slightly acidic pH due to the formation of carbonic acid when carbon dioxide is dissolved in water.",
+    "common_uses": "Carbonated water is commonly used as a refreshing beverage, a mixer in cocktails, and as a base in various soft drinks. It can also be used in cooking and baking to add texture to batters and doughs.",
+    "safety_and_controversy": "Carbonated water is generally recognized as safe for consumption. However, excessive consumption may lead to gastrointestinal discomfort for some individuals, including bloating or gas. There are no significant controversies surrounding its safety when consumed in moderation.",
+    "environmental_and_regulation": "Carbonated water production needs to comply with various food safety regulations. Environmental impacts may arise from plastic bottle production and disposal, though many brands are moving towards sustainable practices. Reusable bottles and cans are encouraged to minimize waste.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "citric acid": {
-    "chemical_properties": "Citric acid is a weak organic acid with the chemical formula C6H8O7. It occurs naturally in citrus fruits and is a known chelating agent. It has a sour taste and is soluble in water.",
-    "common_uses": "Citric acid is commonly used as a preservative, flavoring agent, and acidity regulator in the food and beverage industry. It is also used in cosmetics, cleaning products, and pharmaceuticals.",
-    "safety_and_controversy": "Citric acid is generally recognized as safe (GRAS) when used in food. However, excessive intake may lead to gastrointestinal discomfort in some individuals. It is not associated with significant health risks.",
-    "environmental_and_regulation": "Citric acid is biodegradable and does not pose a significant environmental threat. It is regulated by food safety authorities in various countries and is permitted for use in food products.",
-    "health_safety_rating": 0.9,
+    "chemical_properties": "Citric acid is a weak organic acid with the formula C6H8O7. It appears as a colorless or white crystalline powder and is highly soluble in water. It plays a vital role as a natural preservative and is also used to enhance flavor.",
+    "common_uses": "Citric acid is commonly used in the food and beverage industry as a flavoring agent, preservative, and acidulant. It is also used in cleaning products, cosmetics, and pharmaceuticals, as well as in the manufacturing of certain dietary supplements.",
+    "safety_and_controversy": "Citric acid is generally recognized as safe (GRAS) by regulatory authorities when used in appropriate amounts. However, excessive consumption can lead to tooth enamel erosion and gastrointestinal discomfort. No significant controversies surrounding its use in food products exist.",
+    "environmental_and_regulation": "Citric acid is biodegradable and poses minimal environmental risk. It is not classified as a hazardous substance, and its production is regulated under various food safety laws. The FDA and other regulatory agencies have established guidelines for its safe use in food products.",
+    "health_safety_rating": "0.90",
     "edible": true
   },
   "natural flavor": {
-    "chemical_properties": "Natural flavors are complex mixtures derived from natural sources such as fruits, vegetables, herbs, spices, or other plant or animal materials. They can contain volatile and non-volatile compounds that impart flavor without adding significant nutritional value.",
-    "common_uses": "Natural flavors are widely used in food products, beverages, and cosmetics to enhance or modify taste and aroma. Common applications include snacks, confectionery, dairy products, sauces, and flavored drinks.",
-    "safety_and_controversy": "Natural flavors are generally recognized as safe (GRAS) by agencies like the FDA, but some individuals may experience allergic reactions or sensitivities to specific natural flavor components. Controversy can arise from the lack of transparency regarding the exact sources and constituents of these flavors.",
-    "environmental_and_regulation": "Natural flavors are regulated by food safety authorities. Their production can involve various agricultural practices, which may impact environmental sustainability depending on sourcing methods. Certifications for organic or sustainable sourcing may apply.",
+    "chemical_properties": "Natural flavors are derived from plant or animal sources and can include essential oils, extracts, or distillates that enhance the flavor profile of food products.",
+    "common_uses": "Natural flavors are widely used in various food products, including beverages, snacks, condiments, and baked goods to enhance taste without synthetic additives.",
+    "safety_and_controversy": "Natural flavors are generally recognized as safe (GRAS) by the FDA. However, there may be concerns regarding allergens and additives derived from source materials.",
+    "environmental_and_regulation": "The production of natural flavors may involve sustainable practices, but it varies by manufacturer. Regulatory standards are set by agencies such as the FDA.",
     "health_safety_rating": 0.85,
     "edible": true
   },
   "caffeine": {
-    "chemical_properties": "Caffeine (C8H10N4O2) is a bitter alkaloid that belongs to the methylxanthine class of compounds. It is a natural stimulant found in various plants, primarily in coffee beans, tea leaves, and cacao pods. Caffeine is soluble in water and has a molecular weight of 194.19 g/mol.",
-    "common_uses": "Caffeine is widely used as a central nervous system stimulant to increase alertness and reduce fatigue. It is commonly found in coffee, tea, energy drinks, soft drinks, and over-the-counter medications for headaches and cold relief. It is also used in dietary supplements for weight loss.",
-    "safety_and_controversy": "Caffeine is generally recognized as safe for most adults when consumed in moderate amounts. However, excessive consumption may lead to adverse effects such as insomnia, jitteriness, increased heart rate, and digestive issues. There are ongoing debates regarding its long-term health impacts, especially in pregnant individuals.",
-    "environmental_and_regulation": "Caffeine is not considered hazardous to the environment under normal conditions. It is regulated in food and beverage industries, with guidelines set by organizations like the FDA regarding safe consumption limits. However, concerns exist about the environmental impact of large-scale coffee and tea production.",
+    "chemical_properties": "Caffeine (C8H10N4O2) is a central nervous system stimulant belonging to a class of compounds called xanthines. It is a bitter, white crystalline powder that is soluble in water and has a half-life of approximately 3 to 7 hours in humans.",
+    "common_uses": "Caffeine is commonly used in beverages such as coffee, tea, energy drinks, and soft drinks. It is also found in some medications for its stimulating effects, which can help alleviate headaches and promote alertness.",
+    "safety_and_controversy": "Caffeine is generally recognized as safe when consumed in moderation. However, excessive intake can lead to side effects such as insomnia, jitteriness, headaches, dizziness, and an increased heart rate. Some studies suggest potential health benefits, while others raise concerns about dependence and withdrawal symptoms.",
+    "environmental_and_regulation": "Caffeine is not considered hazardous to the environment at typical levels found in food and beverages. It is regulated in food products by various health authorities, and the acceptable daily intake varies with age and sensitivity. There are no current bans or significant regulations surrounding its use in food and beverages.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "high fructose corn syrup": {
-    "chemical_properties": "High Fructose Corn Syrup (HFCS) is a sweetener created from corn starch, primarily comprising fructose and glucose. It typically comes in various formulations, with HFCS-42 and HFCS-55 being the most common, which denote the percentage of fructose present.",
-    "common_uses": "HFCS is widely used in the food industry as a sweetener in soft drinks, desserts, baked goods, and processed foods due to its cost-effectiveness and ability to enhance flavor.",
-    "safety_and_controversy": "The consumption of HFCS has been associated with health concerns, including obesity and metabolic syndrome, leading to public debates. Some health organizations advise minimizing intake, while regulatory agencies consider it safe within established consumption limits.",
-    "environmental_and_regulation": "The production of HFCS has implications for agricultural practices and corn farming in the U.S., including pesticide use and land use changes. It is regulated by food safety authorities, which ensure it meets safety standards for consumption.",
+    "chemical_properties": "High Fructose Corn Syrup (HFCS) is a sweetener made from corn starch that has been processed to convert some of its glucose into fructose. It is a viscous liquid that is composed of varying amounts of fructose and glucose, typically with a fructose content ranging from 42% to 55%.",
+    "common_uses": "HFCS is widely used as a sweetener in processed foods and beverages, including soft drinks, candies, baked goods, and salad dressings, due to its low cost and ability to enhance flavor.",
+    "safety_and_controversy": "HFCS has been the subject of health debate, being linked to rising obesity rates and metabolic issues. Some studies suggest excessive consumption may contribute to health problems, while regulatory agencies consider it safe in moderation. The health impacts are still a topic of ongoing research.",
+    "environmental_and_regulation": "The production of HFCS is associated with large-scale corn farming, which may involve the use of herbicides, pesticides, and fertilizers that can have environmental impacts. Regulations vary by country but generally allow the use of HFCS in food products.",
     "health_safety_rating": 0.7,
     "edible": true
   },
   "caramel color": {
-    "chemical_properties": "Caramel color is a water-soluble food coloring produced by heating sugar in the presence of acids, alkalis, or salts. It can vary in color from light amber to dark brown depending on the processing method and ingredients used.",
-    "common_uses": "It is commonly used in a variety of food and beverage products, including sodas, sauces, baked goods, and processed foods to provide color and enhance aesthetic appeal.",
-    "safety_and_controversy": "Caramel color is generally recognized as safe (GRAS) by the FDA. However, certain types, particularly those that are produced with ammonium compounds, have raised health concerns due to the potential formation of 4-Methylimidazole (4-MEI), a compound that has shown carcinogenic effects in animal studies.",
-    "environmental_and_regulation": "Caramel color is regulated by food safety authorities around the world. In the EU, it is categorized and labeled as E150. Manufacturers are required to adhere to guidelines to ensure the safety and quality of the product.",
+    "chemical_properties": "Caramel color is a water-soluble food coloring made by heating sugar, often in the presence of acids or alkalis. It can vary in hue from light amber to dark brown depending on the production process and the ingredients used.",
+    "common_uses": "Caramel color is widely used in food and beverage products to enhance appearance, providing a rich, brown hue to items such as soft drinks, sauces, baked goods, and packaged foods.",
+    "safety_and_controversy": "Caramel color is generally recognized as safe (GRAS) by the FDA; however, some concerns have been raised regarding potential contaminants such as 4-Methylimidazole (4-MEI), a byproduct of its production, which has been linked to health risks in high concentrations.",
+    "environmental_and_regulation": "Caramel color is regulated by food safety authorities in many countries. Its production and use must comply with specific guidelines set forth by these regulatory bodies to ensure consumer safety.",
     "health_safety_rating": "0.85",
     "edible": true
   },
   "sugar": {
-    "chemical_properties": "Sugar, primarily sucrose, is a disaccharide composed of glucose and fructose. It is a sweet, soluble carbohydrate that is chemically classified as a simple sugar. Its molecular formula is C12H22O11.",
-    "common_uses": "Sugar is commonly used as a sweetener in food and beverages, as well as in baking and cooking. It is also used as a preservative in jams and jellies, and as a fermentation substrate in alcoholic beverages.",
-    "safety_and_controversy": "While sugar is generally recognized as safe when consumed in moderation, excessive intake has been linked to various health issues, including obesity, diabetes, and heart disease. There is ongoing debate regarding its role in diet and health.",
-    "environmental_and_regulation": "Sugar production can have environmental impacts, including deforestation, water usage, and pesticide application. Regulatory measures vary by region, focusing on sustainable farming practices and health guidelines on sugar consumption.",
-    "health_safety_rating": "0.80",
+    "chemical_properties": "Sugar, primarily in the form of sucrose, is a carbohydrate composed of carbon (C), hydrogen (H), and oxygen (O) with the chemical formula C12H22O11. It is a white crystalline substance that is soluble in water and has a sweet taste.",
+    "common_uses": "Sugar is commonly used as a sweetener in foods and beverages, as well as in baking, cooking, and food preservation. It is also utilized in the production of certain alcoholic beverages and can serve as a fermentation agent.",
+    "safety_and_controversy": "While sugar is generally recognized as safe (GRAS) when consumed in moderation, excessive intake is associated with various health issues, including obesity, diabetes, and dental problems. Ongoing debates discuss the health implications of high sugar consumption in modern diets.",
+    "environmental_and_regulation": "Sugar production can have significant environmental impacts, including deforestation, water usage, and pollution from agricultural runoff. Regulatory measures vary by region, with some countries implementing sugar taxes to combat health issues related to sugar consumption.",
+    "health_safety_rating": 0.8,
     "edible": true
   },
   "artificial flavor": {
-    "chemical_properties": "Artificial flavors are composed of various organic and inorganic compounds, often including esters, aldehydes, and ketones that mimic natural flavors.",
-    "common_uses": "Artificial flavors are widely used in a variety of food and beverage products to enhance taste, including candies, soft drinks, baked goods, and dairy products.",
-    "safety_and_controversy": "The safety of artificial flavors has been evaluated by various health organizations, and while most are considered safe in regulated amounts, some individuals may have sensitivities or allergies.",
-    "environmental_and_regulation": "Regulated by food safety authorities such as the FDA in the United States, artificial flavors must meet safety standards before being approved for use in food products.",
+    "chemical_properties": "Artificial flavors are synthetic compounds designed to mimic natural flavors. They can contain a variety of chemicals including esters, aldehydes, and other organic compounds.",
+    "common_uses": "Artificial flavors are commonly used in processed foods, beverages, candies, and baked goods to enhance or replicate flavors.",
+    "safety_and_controversy": "Artificial flavors are generally recognized as safe (GRAS) by the FDA, but some consumers express concern over their synthetic nature and potential allergic reactions.",
+    "environmental_and_regulation": "Regulated by governmental food safety agencies, artificial flavors must meet specific safety standards; however, their environmental impact varies depending on the production methods used.",
     "health_safety_rating": 0.85,
     "edible": true
   },
@@ -104,10 +104,10 @@
     "edible": true
   },
   "modified corn starch": {
-    "chemical_properties": "Modified corn starch is a derivative of corn starch that has been physically, enzymatically, or chemically altered to enhance its properties such as thickening, stabilizing, and texturizing. It may exhibit varying levels of water solubility and moisture retention depending on the modification process used.",
-    "common_uses": "Modified corn starch is commonly used in the food industry as a thickener, stabilizer, and emulsifier in products like sauces, gravies, soups, and dressings. It is also used in non-food products such as cosmetics, pharmaceuticals, and paper products due to its binding properties.",
-    "safety_and_controversy": "Modified corn starch is generally recognized as safe (GRAS) by regulatory authorities such as the FDA when used in accordance with good manufacturing practices. There are minimal health concerns associated with its consumption, and it is not known to cause adverse effects in most individuals. However, some consumers may prefer to avoid highly processed ingredients.",
-    "environmental_and_regulation": "The production of modified corn starch is subject to regulations by various food safety authorities. As it is derived from corn, its environmental impact can be linked to agricultural practices and GMO concerns, depending on the source of the corn. However, it is typically produced with relatively low environmental footprint compared to other industrial starches.",
+    "chemical_properties": "Modified corn starch is a carbohydrate derived from corn that has been chemically altered to enhance properties like thickening and texture. It is typically a white or off-white powder and is soluble in cold water, forming a gel when heated.",
+    "common_uses": "It is commonly used as a thickening agent in sauces, soups, and gravies, as well as a stabilizer in processed foods like salad dressings, dairy products, and bakery items.",
+    "safety_and_controversy": "Modified corn starch is generally recognized as safe (GRAS) by the FDA. However, some concerns exist regarding its processing and potential allergens, particularly for individuals with corn allergies. Overall, it has a low controversy level compared to other food additives.",
+    "environmental_and_regulation": "Regulatory bodies such as the FDA and USDA oversee the use of modified corn starch in food products. It is produced from corn, which is often subject to debates about GMO practices and agricultural impact, but modified corn starch itself is not associated with significant environmental hazards.",
     "health_safety_rating": "0.90",
     "edible": true
   },
@@ -120,19 +120,19 @@
     "edible": true
   },
   "corn syrup": {
-    "chemical_properties": "Corn syrup is a sweet, viscous substance produced from the hydrolysis of corn starch. It primarily contains glucose and has a high level of solubility, making it a common sweetener in food products.",
-    "common_uses": "Corn syrup is commonly used in the food industry as a sweetener, as well as a thickening agent. It is found in a variety of products, including candies, soft drinks, baked goods, and sauces.",
-    "safety_and_controversy": "Corn syrup, particularly high fructose corn syrup (HFCS), has been the subject of controversy related to its potential health effects. Some studies suggest a link between HFCS consumption and obesity, diabetes, and other metabolic conditions, though it is generally recognized as safe when consumed in moderation.",
-    "environmental_and_regulation": "The production of corn syrup can have environmental impacts, including pesticide use and effects on soil quality due to monoculture practices. Regulations surrounding its production focus on food safety and labeling.",
+    "chemical_properties": "Corn syrup is primarily composed of glucose and is derived from the hydrolysis of corn starch. It can come in various forms, including light and dark corn syrup, with varying levels of fructose depending on the production process.",
+    "common_uses": "It is commonly used as a sweetener in various food products, including candies, baked goods, and beverages. It helps to retain moisture and enhance flavor.",
+    "safety_and_controversy": "Corn syrup has been a subject of debate due to its high fructose content, which some studies suggest may contribute to obesity and related health issues when consumed in excess. However, it is generally recognized as safe (GRAS) by the FDA when used in moderation.",
+    "environmental_and_regulation": "Corn syrup production can contribute to agricultural concerns such as monoculture and pesticide use. Regulations regarding its labeling and use vary by country, but it is commonly regulated as a food ingredient in the U.S.",
     "health_safety_rating": 0.75,
     "edible": true
   },
   "glycerin": {
-    "chemical_properties": "Glycerin, also known as glycerol, is a colorless, odorless, and viscous liquid that is sweet-tasting and non-toxic. It is a simple polyol compound with the chemical formula C3H8O3 and is hygroscopic in nature.",
-    "common_uses": "Glycerin is widely used in the food industry as a sweetener, humectant, and preservative. It is also found in cosmetics, pharmaceuticals, and personal care products, as well as in the production of soaps and as a solvent for various applications.",
-    "safety_and_controversy": "Glycerin is considered safe for consumption and is generally recognized as safe (GRAS) by the FDA. It is non-toxic and has low potential for irritation. However, excessive consumption can lead to gastrointestinal discomfort and diarrhea.",
-    "environmental_and_regulation": "Glycerin is biodegradable and poses minimal environmental risks. It is regulated by various food safety authorities worldwide, ensuring that it meets safety standards for human consumption.",
-    "health_safety_rating": 0.9,
+    "chemical_properties": "Glycerin, also known as glycerol, is a colorless, odorless, and sweet-tasting viscous liquid. It has the molecular formula C3H8O3 and is a trihydric alcohol. It is hygroscopic, meaning it can absorb moisture from the air, and has a high boiling point and low toxicity.",
+    "common_uses": "Glycerin is commonly used in pharmaceuticals, cosmetics, and food products as a humectant, solvent, and sweetener. It is also used in the production of soaps, lotions, and as a preservative in food.",
+    "safety_and_controversy": "Glycerin is generally regarded as safe (GRAS) by regulatory agencies when used in food and cosmetic products. It is not associated with major health risks but may cause irritation in high concentrations. Allergic reactions are rare.",
+    "environmental_and_regulation": "Glycerin is biodegradable and considered environmentally friendly. Regulatory bodies like the FDA and EPA do not impose significant restrictions on its use in food and cosmetics, recognizing its low toxicity and safety profile.",
+    "health_safety_rating": "0.90",
     "edible": true
   },
   "dicalcium phosphate": {
@@ -160,10 +160,10 @@
     "edible": true
   },
   "sodium citrate": {
-    "chemical_properties": "Sodium citrate is the sodium salt of citric acid, and it appears as a white, crystalline powder. It is highly soluble in water and exhibits buffering properties.",
-    "common_uses": "It is commonly used as a food additive and preservative, as well as a flavoring agent in beverages. Sodium citrate is also utilized in the medical field for its anticoagulant properties and is involved in various laboratory applications.",
-    "safety_and_controversy": "Sodium citrate is generally recognized as safe (GRAS) when used in food and is not associated with significant health risks. However, excessive consumption may lead to gastrointestinal disturbances in sensitive individuals.",
-    "environmental_and_regulation": "Sodium citrate is subject to food safety regulations by agencies such as the FDA and is approved for use in many food products. It poses minimal environmental risks when disposed of properly.",
+    "chemical_properties": "Sodium citrate is the sodium salt of citric acid, appearing as a white, granular powder. It is highly soluble in water and has a slightly salty taste, often used as a food additive and buffering agent.",
+    "common_uses": "Sodium citrate is commonly used as a preservative, acidity regulator, and emulsifier in food products. It is also utilized in the pharmaceutical industry as an anticoagulant and in various beverages for flavor enhancement.",
+    "safety_and_controversy": "Sodium citrate is generally recognized as safe (GRAS) by the FDA when used in food products. However, excessive consumption may cause digestive disturbances in some individuals.",
+    "environmental_and_regulation": "Sodium citrate is not known to pose significant environmental risks and is regulated under food safety guidelines. It is acceptable for use in both food and pharmaceutical applications.",
     "health_safety_rating": 0.9,
     "edible": true
   },
@@ -184,11 +184,11 @@
     "edible": true
   },
   "red 40": {
-    "chemical_properties": "Red 40, also known as Allura Red AC, is a synthetic dye made from petroleum products. It has the chemical formula C18H14N2Na2O8S2 and is soluble in water.",
-    "common_uses": "Red 40 is commonly used as a colorant in various food products including candies, soft drinks, pastries, and sauces. It is also used in cosmetics and pharmaceuticals.",
-    "safety_and_controversy": "Red 40 has been the subject of controversy due to potential links to hyperactivity in children and allergic reactions in some individuals. Regulatory agencies, including the FDA, have classified it as safe for consumption within specified limits.",
-    "environmental_and_regulation": "The use of Red 40 is regulated by various food safety authorities globally. In the United States, the FDA allows its use in food products but requires labeling. Concerns about synthetic dyes have led to calls for stricter regulations in some regions.",
-    "health_safety_rating": 0.8,
+    "chemical_properties": "Red 40, also known as Allura Red AC, is a synthetic dye derived from petroleum. It is an azo dye, characterized by its vibrant red color and stability under various pH levels.",
+    "common_uses": "Red 40 is commonly used in food products such as candies, beverages, snacks, and baked goods to enhance appearance. It is also found in cosmetics and pharmaceuticals.",
+    "safety_and_controversy": "While Red 40 is approved by the FDA and considered safe for consumption at regulated levels, some studies suggest potential links to hyperactivity in children and allergic reactions in sensitive individuals, leading to ongoing debate regarding its safety.",
+    "environmental_and_regulation": "Red 40 is regulated by the FDA in the United States, which has set limits on its usage in food products. It is banned or restricted in several countries due to concerns over potential health risks.",
+    "health_safety_rating": "0.80",
     "edible": true
   },
   "enriched flour": {
@@ -200,50 +200,50 @@
     "edible": true
   },
   "niacinamide": {
-    "chemical_properties": "Niacinamide, also known as nicotinamide, is a water-soluble form of vitamin B3 (niacin) with the chemical formula C6H6N2O. It appears as a white crystalline powder and is hygroscopic in nature.",
-    "common_uses": "Niacinamide is commonly used in skincare products for its ability to improve skin tone, texture, and hydration. It is also used in dietary supplements and enriched foods as a source of vitamin B3.",
-    "safety_and_controversy": "Generally recognized as safe (GRAS), niacinamide has a low risk of adverse effects when used in recommended amounts. High doses may cause skin irritation or other mild side effects.",
-    "environmental_and_regulation": "Niacinamide is not considered harmful to the environment and is subject to regulatory oversight to ensure safe use in food and cosmetics. It is approved for use in food products by the FDA.",
+    "chemical_properties": "Niacinamide, also known as nicotinamide, is a water-soluble form of vitamin B3. It has a molecular formula of C6H6N2O and a molecular weight of 122.12 g/mol. Niacinamide is stable at room temperature and is not prone to oxidation, making it suitable for various formulations.",
+    "common_uses": "Niacinamide is commonly used in skincare products for its anti-inflammatory properties, helping to improve skin texture, reduce redness, and minimize the appearance of pores. It is also used as a dietary supplement to support overall health, particularly for skin and metabolism.",
+    "safety_and_controversy": "Niacinamide is generally regarded as safe for topical use and consumption at recommended levels. It has a low potential for adverse effects, with rare cases of skin irritation reported. Most studies support its safety in both cosmetic and dietary applications.",
+    "environmental_and_regulation": "Niacinamide is regulated in various countries as a safe ingredient in cosmetics and dietary supplements. It is not considered harmful to the environment and is allowed in organic farming, subject to specific guidelines.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "wheat flour": {
-    "chemical_properties": "Wheat flour primarily contains starch, proteins (especially gluten), and small amounts of fats and minerals. The main protein in wheat flour is glutenin and gliadin, which together form gluten when water is added.",
-    "common_uses": "Wheat flour is commonly used in baking bread, cakes, cookies, pastries, and pasta. It is also used as a thickening agent in sauces and soups.",
-    "safety_and_controversy": "Wheat flour is generally considered safe for consumption; however, it poses risks for individuals with celiac disease or gluten intolerance. There are ongoing debates about the health effects of refined versus whole wheat flour.",
-    "environmental_and_regulation": "Wheat cultivation can impact the environment through pesticide and fertilizer use, as well as land use change. Sustainable practices are encouraged, and regulations vary by region regarding agricultural practices and food safety.",
+    "chemical_properties": "Wheat flour primarily consists of starches, proteins (including gluten), water, and may contain small amounts of lipids, vitamins, and minerals. The protein content varies depending on the type of wheat used, typically ranging from 8% to 15%.",
+    "common_uses": "Wheat flour is used in the production of bread, pasta, pastries, cakes, and various baked goods. It serves as a thickening agent in sauces and soups and is often utilized in coatings for frying.",
+    "safety_and_controversy": "Generally recognized as safe, wheat flour can pose issues for individuals with celiac disease, non-celiac gluten sensitivity, or wheat allergies. There are concerns about gluten in the diet for some populations, but it remains a staple in many cuisines.",
+    "environmental_and_regulation": "The cultivation of wheat is subject to agricultural regulations that govern pesticide usage, soil management, and water resources. There are ongoing discussions about sustainable farming practices to reduce environmental impacts.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "reduced iron": {
-    "chemical_properties": "Reduced iron is a form of elemental iron that is produced by the reduction of iron oxides. It is typically a fine powder and has a high purity level, often around 90% or higher. Its chemical formula is Fe, and it is known for its magnetic properties.",
-    "common_uses": "Reduced iron is commonly used in the production of iron-based powders for metal injection molding, as a nutrient supplement in animal feed, and as an additive in various chemical formulations. It is also utilized in the manufacturing of magnets and as a reducing agent in chemical processes.",
-    "safety_and_controversy": "Reduced iron is generally considered safe for use in food and industrial applications. However, inhalation of iron powder can pose respiratory hazards, and excessive consumption may lead to iron overload in the body. It is advisable to handle the powder with care to avoid inhalation and skin contact.",
-    "environmental_and_regulation": "There are regulations governing the use of iron powders in various applications, particularly in food and dietary supplements. Reduced iron is typically regulated by food safety authorities, and its environmental impact is minimal compared to other industrial materials, provided it is handled and disposed of responsibly.",
+    "chemical_properties": "Reduced iron is a form of iron that has been treated to remove oxygen and moisture, resulting in a fine powder. It typically consists of 93-96% iron content and is used in various applications due to its magnetic and reactive properties.",
+    "common_uses": "Reduced iron is commonly used as a nutritional supplement in food products, as a source of iron in dietary formulations, and in the production of iron-based pigments and materials. It can also be utilized in metallurgy and as a reducing agent in chemical processes.",
+    "safety_and_controversy": "Reduced iron is generally recognized as safe when used in appropriate amounts as a food additive or dietary supplement. However, excessive intake of iron can lead to iron overload and related health issues. There are few controversies surrounding its use, primarily related to the potential for overconsumption.",
+    "environmental_and_regulation": "The production and use of reduced iron are subject to environmental regulations to minimize dust emissions and manage waste. It is considered a low-risk material in terms of environmental impact when handled and disposed of properly.",
     "health_safety_rating": 0.8,
     "edible": true
   },
   "thiamin mononitrate": {
-    "chemical_properties": "Thiamin mononitrate is the nitrate ester of thiamin (Vitamin B1), a water-soluble vitamin. It appears as a white crystalline powder and is soluble in water, with a molecular formula of C12H17N4O4S.",
-    "common_uses": "Thiamin mononitrate is commonly used as a dietary supplement and food additive to fortify foods, especially cereals, bread, and beverages, to prevent thiamin deficiency.",
-    "safety_and_controversy": "Thiamin mononitrate is generally recognized as safe when used in appropriate amounts. There are no significant controversies regarding its use, though excessive intake may lead to side effects such as headaches.",
-    "environmental_and_regulation": "Thiamin mononitrate is regulated by food safety authorities such as the FDA, and it is not known to pose significant environmental risks. It is typically classified as safe for use in food products.",
+    "chemical_properties": "Thiamin Mononitrate is a synthetic form of thiamine (vitamin B1) that is water-soluble and plays a crucial role in carbohydrate metabolism.",
+    "common_uses": "It is commonly used as a dietary supplement and food additive to fortify foods, especially in cereals, energy drinks, and nutritional supplements.",
+    "safety_and_controversy": "Thiamin Mononitrate is generally recognized as safe when used in appropriate amounts. There are no significant controversies regarding its use.",
+    "environmental_and_regulation": "As a food additive, Thiamin Mononitrate is regulated by food safety authorities, including the FDA, and is approved for use in food products.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "riboflavin": {
-    "chemical_properties": "Riboflavin, also known as vitamin B2, is a water-soluble vitamin with a chemical formula of C17H20N4O6 and a molecular weight of 376.45 g/mol. It is characterized by its yellow-green color and fluorescent properties.",
-    "common_uses": "Riboflavin is commonly used as a dietary supplement, food additive, and in the fortification of foods. It plays a crucial role in energy production, cellular function, and metabolism of fats, drugs, and steroids.",
-    "safety_and_controversy": "Riboflavin is generally recognized as safe (GRAS) when used in appropriate amounts in food and dietary supplements. There are no significant safety concerns associated with riboflavin supplementation at recommended doses.",
-    "environmental_and_regulation": "Riboflavin is regulated by food safety authorities globally, including the FDA and EFSA, ensuring that its use in food products is safe and meets established standards.",
+    "chemical_properties": "Riboflavin, also known as vitamin B2, is a water-soluble vitamin with the chemical formula C17H20N4O6. It is yellow in color and is sensitive to light, which can degrade its potency.",
+    "common_uses": "Riboflavin is commonly used as a dietary supplement, food additive, and in the fortification of various food products. It plays a crucial role in energy metabolism and the maintenance of healthy skin, eyes, and nervous system.",
+    "safety_and_controversy": "Riboflavin is generally recognized as safe when taken in appropriate amounts. Excessive intake does not lead to toxicity, although large doses may have mild side effects such as bright yellow urine due to its coloring properties.",
+    "environmental_and_regulation": "Riboflavin is regulated by food safety authorities and is permitted as a food additive in many countries. It is not considered hazardous to the environment.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "folic acid": {
-    "chemical_properties": "Folic acid, also known as vitamin B9, has the chemical formula C19H19N7O6 and a molecular weight of 441.4 g/mol. It is a water-soluble vitamin that is sensitive to heat, light, and oxidation. Folic acid is typically found in its pteroylmonoglutamate form in supplements and fortified foods.",
-    "common_uses": "Folic acid is commonly used to prevent and treat folate deficiency, a condition that can lead to anemia, and is particularly important during pregnancy for fetal development. It is also used in food fortification and as a dietary supplement.",
-    "safety_and_controversy": "Folic acid is generally regarded as safe when used appropriately, but excessive intake may mask vitamin B12 deficiency and lead to potential neurological damage. Some studies suggest links between high folic acid intake and certain health risks, such as cancer, although evidence is not definitive.",
-    "environmental_and_regulation": "Folic acid is regulated as a dietary supplement and food additive in many countries. In the U.S., it is required to be added to enriched grains. Regulatory bodies monitor its safe levels in food products, and it is considered environmentally safe when used as intended.",
+    "chemical_properties": "Folic Acid, also known as vitamin B9, is a water-soluble B vitamin that is a synthetic form of folate. It is involved in DNA synthesis, repair, and methylation, and is essential for cell division and growth.",
+    "common_uses": "Folic Acid is commonly used as a dietary supplement to prevent folate deficiency, especially in pregnant women to reduce the risk of neural tube defects. It is also added to fortified foods and cereals.",
+    "safety_and_controversy": "Folic Acid is generally recognized as safe for most individuals when consumed in appropriate amounts. However, excessive intake can lead to masking of vitamin B12 deficiency and potential neurological issues. Some studies suggest that very high levels might be linked to certain health risks.",
+    "environmental_and_regulation": "Folic Acid is regulated by food safety authorities, including the FDA and EFSA, which have established guidelines for its use in food products and supplements. It is considered safe for the environment under normal usage conditions.",
     "health_safety_rating": 0.9,
     "edible": true
   },
@@ -264,10 +264,10 @@
     "edible": true
   },
   "calcium carbonate": {
-    "chemical_properties": "Calcium carbonate is a white solid that occurs in nature as chalk, limestone, and marble. Its chemical formula is CaCO3, and it has a molar mass of 100.09 g/mol. It is insoluble in water but reacts with acids to release carbon dioxide gas.",
-    "common_uses": "Calcium carbonate is widely used in the construction industry as a building material and in cement production. It is also used as a dietary supplement in food products, an antacid for treating indigestion, and as a filler in various products, including paper and plastic.",
-    "safety_and_controversy": "Calcium carbonate is generally recognized as safe (GRAS) for consumption. However, excessive intake can lead to health issues like kidney stones or hypercalcemia. There are few controversies surrounding its use, primarily concerning its environmental impact when mined.",
-    "environmental_and_regulation": "Calcium carbonate is regulated in terms of its extraction to minimize environmental damage. The mining of limestone can lead to habitat destruction and soil erosion. Regulatory measures may vary by location to ensure sustainable practices.",
+    "chemical_properties": "Calcium carbonate (CaCO3) is a colorless or white crystalline solid that occurs naturally in rocks and minerals. It is a compound made up of calcium, carbon, and oxygen, and is known for its low solubility in water, reactivity with acids, and ability to form carbon dioxide gas when reacted with acids.",
+    "common_uses": "Calcium carbonate is commonly used as a dietary supplement for calcium, in the production of lime for construction, and as a filler in various products such as paints, plastics, and paper. It is also used in the food industry as an antacid and as a food additive (E170).",
+    "safety_and_controversy": "Calcium carbonate is generally recognized as safe (GRAS) by the FDA when used in appropriate amounts. However, excessive intake can lead to gastrointestinal issues and hypercalcemia. It is important for individuals with certain health conditions, such as kidney disorders, to consult a healthcare provider before use.",
+    "environmental_and_regulation": "Calcium carbonate is considered environmentally safe and naturally occurring. It is subject to regulations under food safety standards, with specific limits on its use in food products established by health authorities.",
     "health_safety_rating": 0.9,
     "edible": true
   },
@@ -288,11 +288,11 @@
     "edible": true
   },
   "dextrose": {
-    "chemical_properties": "Dextrose, also known as D-glucose, is a simple sugar (monosaccharide) with the molecular formula C6H12O6. It is a white, crystalline powder that is hygroscopic and soluble in water. Dextrose is a naturally occurring sugar found in many plants and fruits and is often used in food and pharmaceutical industries.",
-    "common_uses": "Dextrose is commonly used as a sweetener in food products, as an ingredient in sports drinks for energy replenishment, in IV fluids for medical purposes, and in baking as a fermentable sugar.",
-    "safety_and_controversy": "Dextrose is generally recognized as safe (GRAS) by the FDA. However, excessive consumption can lead to health issues such as obesity and diabetes due to its high glycemic index. There are no substantial controversies surrounding its use in food and medicine.",
-    "environmental_and_regulation": "Dextrose is produced from corn or starch through hydrolysis. The environmental impact is relatively low compared to other food additives, but concerns about the sustainability of industrial corn farming exist. Regulations ensure that dextrose is manufactured and used in compliance with food safety standards.",
-    "health_safety_rating": 0.9,
+    "chemical_properties": "Dextrose, also known as D-glucose, is a simple sugar (monosaccharide) that is soluble in water and has a sweet taste. Its molecular formula is C6H12O6 and it is a carbohydrate that serves as an important energy source in living organisms.",
+    "common_uses": "Dextrose is commonly used as a sweetener in food and beverages, a source of energy in medical settings, as a carbohydrate additive in sports drinks, and in pharmaceutical formulations.",
+    "safety_and_controversy": "Dextrose is generally recognized as safe (GRAS) by the FDA when used in food applications. There are minimal safety concerns when consumed in moderation; however, excessive intake may lead to health issues such as elevated blood sugar levels or obesity.",
+    "environmental_and_regulation": "Dextrose is produced from starch, primarily from corn, and is regulated by food safety authorities. Environmental impact concerns include sustainable agricultural practices and the ecological footprint of corn farming.",
+    "health_safety_rating": "0.90",
     "edible": true
   },
   "wheat bran": {
@@ -304,10 +304,10 @@
     "edible": true
   },
   "salt": {
-    "chemical_properties": "Salt, or sodium chloride (NaCl), is an ionic compound formed from the reaction of sodium (Na) and chlorine (Cl). It is a white crystalline solid, highly soluble in water, and has a melting point of approximately 801 \u00b0C.",
-    "common_uses": "Salt is commonly used as a seasoning and preservative in cooking and food processing. It is also used in de-icing roads, water treatment processes, and in various industrial applications such as the manufacture of chlorine and caustic soda.",
-    "safety_and_controversy": "While salt is essential for human health in moderation, excessive consumption can lead to health issues such as hypertension and cardiovascular diseases. The use of salt for food preservation has raised concerns regarding high sodium intake in diets.",
-    "environmental_and_regulation": "Salt production and use can impact the environment, particularly regarding salinization of soil and water bodies. Regulations may vary by region, with some guidelines on maximum allowable sodium levels in food products and industrial discharges.",
+    "chemical_properties": "Sodium chloride (NaCl), a white crystalline solid, highly soluble in water, with a salty taste.",
+    "common_uses": "Used as a flavor enhancer in food, a preservative, and in various industrial processes.",
+    "safety_and_controversy": "Excessive consumption can lead to health issues such as hypertension, but is generally recognized as safe in moderate amounts.",
+    "environmental_and_regulation": "Regulated for food use by health authorities, with considerations for environmental impacts from road salt use and impacts on water quality.",
     "health_safety_rating": 0.8,
     "edible": true
   },
@@ -336,18 +336,18 @@
     "edible": true
   },
   "soy lecithin": {
-    "chemical_properties": "Soy lecithin is a natural phospholipid extracted from soybeans. It consists primarily of phosphatidylcholine, phosphatidylethanolamine, and phosphatidylinositol. It is amphiphilic, possessing both hydrophilic and hydrophobic properties, which makes it an effective emulsifier.",
-    "common_uses": "Soy lecithin is widely used in food products as an emulsifier (to blend oils and water), in baking to improve texture, and in chocolate to prevent it from seizing. It is also used in cosmetics, pharmaceuticals, and dietary supplements.",
-    "safety_and_controversy": "Soy lecithin is generally recognized as safe (GRAS) by the FDA. However, some individuals may have soy allergies or concerns regarding genetically modified organisms (GMOs) in soy lecithin. There is limited evidence on adverse effects, and it is well tolerated by most people.",
-    "environmental_and_regulation": "The cultivation of soybeans can lead to deforestation and loss of biodiversity, particularly in areas like the Amazon rainforest. Organic soy lecithin is available and may offer a more environmentally friendly option. Regulatory frameworks vary by country regarding labeling of GMOs.",
-    "health_safety_rating": 0.85,
+    "chemical_properties": "Soy lecithin is a natural emulsifier derived from soybean oil. It consists primarily of phospholipids, which are molecules made up of fatty acids, glycerol, and phosphate groups. It is a yellowish-brown fat with a slightly nutty taste and is soluble in both fat and water.",
+    "common_uses": "Soy lecithin is commonly used in food products as an emulsifier to stabilize mixtures of oil and water, improve texture, and enhance flavor. It is found in chocolate, margarine, baked goods, salad dressings, and nutritional supplements. It is also used in cosmetics and pharmaceuticals.",
+    "safety_and_controversy": "Soy lecithin is generally recognized as safe (GRAS) by the U.S. Food and Drug Administration (FDA). While soy allergies can occur, the levels of soy proteins in lecithin are typically low, making it less likely to trigger an allergic reaction. Some concerns exist regarding potential GMO sources, as most soybeans are genetically modified.",
+    "environmental_and_regulation": "The production of soy lecithin can have environmental impacts, particularly related to soybean farming, such as deforestation and pesticide use. Regulations regarding GMO labeling vary by country, and therefore products containing soy lecithin may not always be labeled as such.",
+    "health_safety_rating": "0.85",
     "edible": true
   },
   "cornstarch": {
-    "chemical_properties": "Cornstarch is a carbohydrate extracted from corn grain, primarily composed of amylose and amylopectin. It is a white, odorless powder that is highly absorbent and gelatinizes when heated in water, forming a viscous solution.",
-    "common_uses": "Cornstarch is commonly used as a thickening agent in cooking and baking, in sauces, soups, and gravies. It is also utilized in the production of baby powder, as an anti-caking agent in food products, and in some industrial applications.",
-    "safety_and_controversy": "Cornstarch is generally recognized as safe (GRAS) by the FDA when used as a food additive. However, some concerns have been raised about the potential for genetically modified corn and its impact on allergies, though no significant safety issues have been documented.",
-    "environmental_and_regulation": "The environmental impact of cornstarch production is linked to corn farming, which can involve pesticide and fertilizer use. Regulations surrounding its production vary by region and may include guidelines for organic certification and GMO labeling.",
+    "chemical_properties": "Cornstarch is a carbohydrate derived from the endosperm of corn kernels, primarily composed of amylose and amylopectin. It is a white, fine powder that is soluble in hot water and forms a gel-like consistency when heated.",
+    "common_uses": "Cornstarch is commonly used as a thickening agent in cooking and baking, found in sauces, gravies, puddings, and soups. It is also used in the manufacturing of paper, textiles, and as an anti-caking agent in food products.",
+    "safety_and_controversy": "Cornstarch is generally recognized as safe (GRAS) by the FDA when used in accordance with good manufacturing practices. However, it is a carbohydrate with a high glycemic index, which may not be suitable for individuals with diabetes when consumed in large quantities.",
+    "environmental_and_regulation": "Cornstarch is derived from corn, which is a heavily cultivated crop in many countries. The cultivation of corn can involve the use of pesticides and fertilizers, leading to environmental concerns. Regulations regarding the use of cornstarch in food products are in place to ensure safety and quality.",
     "health_safety_rating": 0.9,
     "edible": true
   },
@@ -360,19 +360,19 @@
     "edible": true
   },
   "vitamin a palmitate": {
-    "chemical_properties": "Vitamin A Palmitate is a form of vitamin A, a fat-soluble vitamin that is essential for various bodily functions. It is an ester formed from retinol and palmitic acid, with the chemical formula C36H60O2. It is typically a yellow to orange viscous liquid or oily substance that is sensitive to light and heat.",
-    "common_uses": "Vitamin A Palmitate is commonly used as a dietary supplement to prevent vitamin A deficiency. It is also used in food fortification, particularly in dairy products and infant formulas. Additionally, it is used in cosmetics and skin care products for its beneficial effects on skin health.",
-    "safety_and_controversy": "Generally recognized as safe (GRAS) when consumed in appropriate amounts. However, excessive intake can lead to hypervitaminosis A, which can cause serious health issues. There have been concerns regarding the synthetic forms of vitamin A and potential toxicity with long-term use.",
-    "environmental_and_regulation": "Vitamin A Palmitate is regulated as a food additive and dietary supplement by health authorities, including the FDA. There are no significant environmental concerns associated with its production or use.",
+    "chemical_properties": "Vitamin A Palmitate is the ester of palmitic acid and retinol, a fat-soluble vitamin that is a vital nutrient for maintaining vision, immune function, and skin health. It is typically stable and soluble in fats and oils.",
+    "common_uses": "Vitamin A Palmitate is commonly used as a food additive and dietary supplement, often added to dairy products, margarine, and infant foods to enrich their nutritional value. It is also used in cosmetics and skincare products for its beneficial effects on skin health.",
+    "safety_and_controversy": "While generally recognized as safe when consumed at recommended levels, excessive intake of Vitamin A Palmitate can lead to toxicity and health issues such as liver damage and teratogenic effects during pregnancy. Its use in fortified foods is subject to regulatory limits to prevent overconsumption.",
+    "environmental_and_regulation": "Vitamin A Palmitate is regulated by food safety authorities, such as the FDA and EFSA, which establish guidelines for its permitted levels in food products. There are no significant environmental concerns associated with its production or use.",
     "health_safety_rating": 0.9,
     "edible": true
   },
   "sodium stearoyl lactylate": {
-    "chemical_properties": "Sodium Stearoyl Lactylate is a sodium salt of stearoyl lactylate, a compound formed from lactic acid and stearic acid. It is a white to light yellow powder that is soluble in water and has emulsifying and stabilizing properties.",
-    "common_uses": "It is commonly used as an emulsifier, dough conditioner, and surfactant in food products, baked goods, and personal care products.",
-    "safety_and_controversy": "Sodium Stearoyl Lactylate is generally recognized as safe (GRAS) by the U.S. Food and Drug Administration (FDA). There are few reported adverse effects, but like any additive, it should be consumed in moderation.",
-    "environmental_and_regulation": "There are no significant environmental concerns associated with Sodium Stearoyl Lactylate, and it is regulated by food safety authorities in various countries. It is permitted as a food additive under specific guidelines.",
-    "health_safety_rating": 0.9,
+    "chemical_properties": "Sodium Stearoyl Lactylate is a sodium salt of stearoyl lactylic acid, characterized as a surfactant and emulsifier. It is typically a white to off-white powder, soluble in water and oil, and has a molecular formula of C18H35NaO3.",
+    "common_uses": "It is commonly used in food products as an emulsifier, particularly in baked goods, as well as in cosmetics and skincare products for its emollient properties.",
+    "safety_and_controversy": "Sodium Stearoyl Lactylate is generally recognized as safe (GRAS) when used in accordance with good manufacturing practices. It has not been associated with significant health risks; however, individuals with specific allergies may experience sensitivities.",
+    "environmental_and_regulation": "Regulatory bodies such as the FDA and EMA have assessed Sodium Stearoyl Lactylate, deeming it safe for use in food and cosmetic applications. It is subject to standard manufacturing regulations to ensure safety and environmental compliance.",
+    "health_safety_rating": "0.90",
     "edible": true
   },
   "carrageenan": {
@@ -400,11 +400,11 @@
     "edible": false
   },
   "pyridoxine hydrochloride": {
-    "chemical_properties": "Pyridoxine hydrochloride is a water-soluble vitamin B6 compound. Its chemical formula is C8H10ClN3O3S, and it has a molecular weight of 237.68 g/mol. It appears as a white crystalline powder and is stable under proper storage conditions.",
-    "common_uses": "Pyridoxine hydrochloride is commonly used as a dietary supplement to prevent or treat vitamin B6 deficiency. It is also utilized in food fortification and is important for metabolic processes, including amino acid metabolism, neurotransmitter synthesis, and red blood cell formation.",
-    "safety_and_controversy": "Pyridoxine hydrochloride is generally recognized as safe when used in appropriate doses. High doses can potentially lead to nerve damage or sensory neuropathy. It is important to avoid long-term excessive supplementation without medical supervision.",
-    "environmental_and_regulation": "Pyridoxine hydrochloride is regulated by food safety authorities, such as the FDA in the United States, as a food additive and dietary supplement ingredient. It does not pose significant environmental risks when used according to guidelines.",
-    "health_safety_rating": 0.9,
+    "chemical_properties": "Pyridoxine Hydrochloride is the hydrochloride salt form of pyridoxine, a water-soluble B vitamin (B6) essential for various biochemical processes in the body. It has a molecular formula of C8H11ClN2O3 and a molecular weight of 205.64 g/mol. It is typically a white to yellowish crystalline powder that is soluble in water and slightly soluble in alcohol.",
+    "common_uses": "Pyridoxine Hydrochloride is commonly used as a dietary supplement to prevent and treat vitamin B6 deficiency. It is also used in fortified foods, and it plays a role in the production of neurotransmitters, the metabolism of amino acids, and the maintenance of normal immune function.",
+    "safety_and_controversy": "Pyridoxine Hydrochloride is generally recognized as safe when used in appropriate amounts. However, excessive intake can lead to peripheral neuropathy and other health issues. It is important to follow recommended dietary allowances. There are no significant controversies surrounding its use.",
+    "environmental_and_regulation": "Pyridoxine Hydrochloride is regulated as a food additive and dietary supplement in many countries. It is included in the FDA\u2019s Generally Recognized as Safe (GRAS) list. Environmental impact studies suggest minimal risk associated with its use and disposal.",
+    "health_safety_rating": "0.90",
     "edible": true
   },
   "thiamin hydrochloride": {
@@ -413,6 +413,438 @@
     "safety_and_controversy": "Thiamin hydrochloride is generally recognized as safe when used appropriately as a supplement or food additive. There are few reported adverse effects associated with thiamine overdose, which primarily include headache, irritability, and gastrointestinal disturbances. No significant controversies surrounding its use are reported.",
     "environmental_and_regulation": "Thiamin hydrochloride is regulated as a food and dietary supplement ingredient in many countries, including the United States, where it is classified under dietary supplement regulations. It is not considered hazardous to the environment and does not require special disposal methods.",
     "health_safety_rating": 0.95,
+    "edible": true
+  },
+  "potassium citrate": {
+    "chemical_properties": "Potassium citrate is a potassium salt of citric acid. It appears as a white crystalline powder that is hygroscopic in nature. Its chemical formula is C6H5K3O7, and it has a molar mass of 258.21 g/mol. It is soluble in water but insoluble in alcohol.",
+    "common_uses": "Potassium citrate is commonly used as a food additive, a buffering agent in medicine, and in the prevention and treatment of kidney stones. It is also utilized in the food and beverage industry as a preservative and flavoring agent.",
+    "safety_and_controversy": "Potassium citrate is generally recognized as safe (GRAS) when used in appropriate amounts in food. High doses or excessive consumption can lead to hyperkalemia, particularly in individuals with kidney problems. There are no significant controversies surrounding its use in standard applications.",
+    "environmental_and_regulation": "Potassium citrate is not classified as hazardous to the environment and is subject to food safety regulations by agencies like the FDA. It is permitted for use in food products and meets safety standards.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "potassium benzoate": {
+    "chemical_properties": "Potassium benzoate is the potassium salt of benzoic acid, with the chemical formula C7H5KO2. It is a white crystalline powder that is soluble in water and has a slight characteristic odor.",
+    "common_uses": "Potassium benzoate is commonly used as a food preservative, particularly in acidic foods and beverages. It is also used in cosmetics, pharmaceuticals, and as a flavoring agent.",
+    "safety_and_controversy": "Potassium benzoate is generally recognized as safe (GRAS) when used within established limits. However, some concerns have been raised regarding its potential to form benzene, a known carcinogen, when exposed to high levels of heat or light in the presence of ascorbic acid.",
+    "environmental_and_regulation": "Potassium benzoate is subject to food safety regulations and is permissible for use in many countries. It is generally considered to have low environmental toxicity and is biodegradable.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "calcium disodium edta": {
+    "chemical_properties": "Calcium Disodium EDTA is a chelating agent that can form stable complexes with metal ions. Its chemical formula is C10H12N2O8Na2Ca, and it is a white crystalline powder, soluble in water.",
+    "common_uses": "It is commonly used in food preservation, cosmetics, and pharmaceutical products as a stabilizer or preservative. It is also utilized in medical chelation therapy to treat heavy metal poisoning.",
+    "safety_and_controversy": "Calcium Disodium EDTA is generally recognized as safe (GRAS) by the FDA when used in food products. However, some studies have indicated potential concerns regarding its effects on nutrient absorption and its environmental impact when released in large quantities.",
+    "environmental_and_regulation": "Regulated by the FDA in food applications and by other regulatory bodies in cosmetics and pharmaceuticals. Environmental concerns focus on its ability to chelate heavy metals, potentially impacting soil and water quality.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "acesulfame potassium": {
+    "chemical_properties": "Acesulfame Potassium, also known as Acesulfame K, is a calorie-free artificial sweetener with a chemical formula C4H4KNO4S. It is approximately 200 times sweeter than sucrose and is stable under heat, making it suitable for cooking and baking.",
+    "common_uses": "It is commonly used as a sweetener in various food and beverage products, including soft drinks, chewing gum, baked goods, and tabletop sweeteners. It is often combined with other sweeteners to enhance sweetness without adding calories.",
+    "safety_and_controversy": "Acesulfame Potassium is considered safe for consumption by regulatory agencies such as the FDA, EFSA, and WHO. However, some studies have raised concerns about potential long-term effects on health, but substantial evidence supports its safety when consumed within established acceptable daily intake levels.",
+    "environmental_and_regulation": "Acesulfame Potassium is regulated by the FDA, which has designated it as GRAS (Generally Recognized As Safe). Environmental concerns primarily focus on its persistence in wastewater, but it is not considered highly hazardous to ecosystems.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "water": {
+    "chemical_properties": "Water (H2O) is a colorless, odorless, tasteless liquid that is essential for all forms of life. It has a high specific heat capacity, surface tension, and solvent properties, allowing it to dissolve many substances. Water is polar, which contributes to its unique properties and behavior in chemical reactions.",
+    "common_uses": "Water is used for drinking, agriculture, sanitation, industrial processes, energy production, and recreational activities. It is also a critical component in chemical manufacturing and serves as a universal solvent for various substances.",
+    "safety_and_controversy": "Generally, water is considered safe for consumption; however, contamination from pollutants such as heavy metals, microorganisms, and chemical runoff can pose health risks. Issues concerning water rights, availability, and access in certain regions also generate ongoing controversy.",
+    "environmental_and_regulation": "Water management is regulated at local, national, and international levels to protect water quality and supply. Regulations often address issues such as pollution control, water conservation, and the protection of aquatic ecosystems.",
+    "health_safety_rating": 1.0,
+    "edible": true
+  },
+  "sucralose": {
+    "chemical_properties": "Sucralose is a chlorinated derivative of sucrose. It is a white, crystalline powder that is approximately 600 times sweeter than sucrose and is heat-stable, allowing it to be used in cooking and baking. Its chemical formula is C12H19Cl3O8.",
+    "common_uses": "Sucralose is commonly used as a non-nutritive sweetener in food and beverages, such as diet sodas, sugar-free desserts, and low-calorie snacks. It is also used in cooking and baking due to its heat stability.",
+    "safety_and_controversy": "Sucralose has been evaluated by various health agencies, including the FDA, EFSA, and WHO, and has been deemed safe for human consumption. However, some studies have raised concerns about its potential effects on gut bacteria and glucose metabolism, leading to ongoing debate regarding its long-term health impacts.",
+    "environmental_and_regulation": "Sucralose is regulated as a food additive in many countries and is classified as safe for use by regulatory bodies. Environmental impact studies are limited, but some research indicates that sucralose is resistant to biodegradation, leading to concerns about its presence in water systems.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "calcium pantothenate": {
+    "chemical_properties": "Calcium Pantothenate is a calcium salt of pantothenic acid (vitamin B5), which has the molecular formula C18H35CaN1O10S. It is a white crystalline powder soluble in water and has a slightly bitter taste.",
+    "common_uses": "Calcium Pantothenate is primarily used as a dietary supplement to provide vitamin B5, which is essential for fatty acid synthesis, energy production, and the synthesis of coenzyme A. It is also utilized in the food industry as a food additive and in animal feed to promote growth.",
+    "safety_and_controversy": "Calcium Pantothenate is generally recognized as safe (GRAS) when used in appropriate amounts. There are no significant safety concerns associated with its use in food and supplements, although excessive intakes may lead to mild side effects like gastrointestinal disturbances.",
+    "environmental_and_regulation": "There are no specific environmental regulations directly related to Calcium Pantothenate. It is regulated by food safety authorities such as the FDA and EFSA when used as a food ingredient or supplement.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "yellow 5": {
+    "chemical_properties": "Yellow 5, also known as Tartrazine, is a synthetic lemon-yellow azo dye derived from coal tar. It has the chemical formula C16H9N3NaO9S and is soluble in water.",
+    "common_uses": "Yellow 5 is commonly used as a food coloring in various products such as beverages, candies, baked goods, and sauces. It is also used in cosmetics and pharmaceuticals.",
+    "safety_and_controversy": "Some studies suggest that Yellow 5 may cause allergic reactions in sensitive individuals and has been linked to hyperactivity in children. However, regulatory agencies generally consider it safe when consumed within established limits.",
+    "environmental_and_regulation": "Yellow 5 is regulated by the FDA and is approved for use in food and cosmetics in the United States. In some countries, there are stricter regulations regarding its use due to potential health concerns.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "yellow 6": {
+    "chemical_properties": "Yellow 6, also known as Sunset Yellow FCF, is a synthetic azo dye derived from petroleum. It has a chemical formula of C16H10N2Na2O7S2 and is typically used in its disodium salt form, which is soluble in water.",
+    "common_uses": "Yellow 6 is commonly used as a food coloring in various products, including candies, beverages, baked goods, and processed foods. It is also found in cosmetics and pharmaceuticals.",
+    "safety_and_controversy": "While Yellow 6 is approved for use by regulatory agencies such as the FDA, it has been associated with certain health concerns, including potential allergic reactions and hyperactivity in children, leading to calls for labeling and use restrictions in some countries.",
+    "environmental_and_regulation": "Yellow 6 is regulated in many countries and is permitted for use in food products within specified limits. It is categorized as a synthetic dye, and its use is monitored to assess any potential environmental impacts.",
+    "health_safety_rating": "0.70",
+    "edible": true
+  },
+  "cyanocobalamin": {
+    "chemical_properties": "Cyanocobalamin, also known as vitamin B12, is a water-soluble vitamin with a molecular formula of C63H88CoN14O14P. It contains a cobalt ion at its center, which is surrounded by a corrin ring structure. The compound is stable under normal storage conditions and is sensitive to light and heat.",
+    "common_uses": "Cyanocobalamin is commonly used as a dietary supplement to prevent or treat vitamin B12 deficiency, which can lead to anemia and neurological issues. It is also used in fortified foods, and in some medical treatments including injections and oral medications.",
+    "safety_and_controversy": "Cyanocobalamin is generally regarded as safe when taken in recommended amounts. However, excessive doses can lead to health issues such as acne or rosacea in sensitive individuals. There is some debate regarding its efficacy compared to other forms of vitamin B12, such as methylcobalamin.",
+    "environmental_and_regulation": "Cyanocobalamin is regulated in many countries as a dietary supplement and food additive. It is recognized by organizations such as the FDA and EFSA as safe for consumption within established dietary allowances. Environmental concerns are minimal as it is not considered harmful in typical doses or when disposed of.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "rosemary extract": {
+    "chemical_properties": "Rosemary extract contains a variety of compounds, including rosmarinic acid, carnosic acid, and essential oils such as pinene and camphor, which contribute to its antioxidant and antimicrobial properties.",
+    "common_uses": "Rosemary extract is commonly used as a natural preservative in food products, as well as in cosmetics and personal care products for its fragrance and antioxidant properties.",
+    "safety_and_controversy": "Rosemary extract is generally considered safe for consumption and topical use. However, high doses may lead to gastrointestinal issues or allergic reactions in some individuals.",
+    "environmental_and_regulation": "Rosemary extract is typically regulated as a food additive, and its use is widely accepted in the food industry. It poses minimal environmental risks.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "potassium sorbate": {
+    "chemical_properties": "Potassium sorbate is a white, crystalline salt, chemically known as potassium 2,4-hexadienoate. It is soluble in water and has a molecular formula of C6H7O2K. It acts as a preservative by inhibiting the growth of mold, yeast, and some bacteria.",
+    "common_uses": "It is commonly used as a preservative in food products, particularly in bakery goods, cheeses, and beverages. Additionally, potassium sorbate is utilized in cosmetics, pharmaceuticals, and personal care products to prevent microbial growth.",
+    "safety_and_controversy": "Potassium sorbate is generally recognized as safe (GRAS) by the FDA when used in accordance with good manufacturing practices. Some individuals may experience sensitivity or allergic reactions. There has been some debate regarding its potential to cause irritation or other health concerns, but comprehensive research indicates it is safe for use in food products.",
+    "environmental_and_regulation": "Potassium sorbate is regulated by food safety authorities globally. It is allowed in various food products and is subject to specific concentration limits. Environmentally, it is considered low-risk, with minimal impact when disposed of properly, though high concentrations can be harmful to aquatic ecosystems.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "flour": {
+    "chemical_properties": "Flour is primarily composed of carbohydrates, particularly starch, and contains proteins, gluten, and small amounts of fat, vitamins, and minerals. The exact composition varies based on the type of flour (e.g., all-purpose, whole wheat, etc.).",
+    "common_uses": "Flour is commonly used as a key ingredient in baking bread, cakes, pastries, and cookies, as well as for thickening sauces and gravies. It is also used in making pasta and various desserts.",
+    "safety_and_controversy": "Flour is generally recognized as safe for consumption. However, raw flour can pose a risk of foodborne illness due to the potential presence of pathogens like E. coli, hence it should not be consumed uncooked. Individuals with gluten intolerance or celiac disease must avoid gluten-containing flours.",
+    "environmental_and_regulation": "Flour production is regulated by food safety authorities to ensure it meets standards for contaminants. The environmental impact of flour is linked to agricultural practices, including land use, pesticide use, and water consumption in grain production.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "vitamin b1": {
+    "chemical_properties": "Vitamin B1, also known as thiamine, is a water-soluble vitamin that plays a crucial role in carbohydrate metabolism and neural function. Its chemical formula is C12H17N4OS, and it is sensitive to heat and alkaline conditions.",
+    "common_uses": "Vitamin B1 is commonly used as a dietary supplement to prevent or treat thiamine deficiency, which can lead to conditions like beriberi and Wernicke-Korsakoff syndrome. It is also added to fortified foods and used in some energy drinks.",
+    "safety_and_controversy": "Vitamin B1 is generally considered safe for consumption, with low toxicity levels. No significant controversies or health risks are associated with its normal dietary intake or supplementation when taken at recommended doses.",
+    "environmental_and_regulation": "Vitamin B1 is regulated as a food additive and dietary supplement in many countries. It is categorized as safe for use, and its environmental impact is minimal when used in food products and supplements.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "niacin": {
+    "chemical_properties": "Niacin, also known as vitamin B3, is a water-soluble vitamin that plays a crucial role in metabolism. It exists in two forms: nicotinic acid and nicotinamide. Its chemical formula is C6H5N3O and it has a molecular weight of 123.13 g/mol.",
+    "common_uses": "Niacin is commonly used as a dietary supplement to treat and prevent niacin deficiency and is also utilized to lower cholesterol levels. It is added to animal feed and is a key ingredient in fortified foods.",
+    "safety_and_controversy": "Niacin is generally recognized as safe when used appropriately; however, high doses can lead to side effects such as flushing, dermatitis, and gastrointestinal upset. It is important to monitor intake levels to avoid adverse effects.",
+    "environmental_and_regulation": "Niacin is classified as Generally Recognized As Safe (GRAS) by the FDA when used in food products. There are no significant environmental concerns associated with its production and use.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "vitamin b2": {
+    "chemical_properties": "Vitamin B2, also known as riboflavin, is a water-soluble vitamin with the chemical formula C17H20N4O6. It is yellow in color and plays a crucial role in energy production and the metabolism of fats, drugs, and steroids.",
+    "common_uses": "Vitamin B2 is commonly used as a dietary supplement and is added to various food products, including cereals, dairy products, and energy bars, to prevent riboflavin deficiency. It is also utilized in the cosmetic industry for its antioxidant properties.",
+    "safety_and_controversy": "Vitamin B2 is generally regarded as safe for consumption, with no significant toxicity reported from dietary sources. However, excessive supplemental intake may lead to mild side effects such as diarrhea or increased urine production. There are no major controversies associated with its use.",
+    "environmental_and_regulation": "Vitamin B2 is regulated by food safety authorities, including the FDA in the United States and EFSA in Europe. It is approved for use in food products and supplements, with guidelines ensuring safe levels for consumption.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "soybean oil": {
+    "chemical_properties": "Soybean oil is a vegetable oil derived from the seeds of the soybean (Glycine max). It is primarily composed of triglycerides, predominantly linoleic acid (omega-6), oleic acid (omega-9), and palmitic acid. It is liquid at room temperature and has a relatively high smoke point, making it suitable for various cooking methods.",
+    "common_uses": "Soybean oil is widely used in cooking and food preparation, including frying, baking, and salad dressings. It is also used as an ingredient in processed foods, margarine, and spreads, and has applications in industrial products such as biodiesel and lubricants.",
+    "safety_and_controversy": "Soybean oil is generally considered safe for consumption, but some controversies exist regarding its omega-6 fatty acid content and potential links to inflammation when consumed in excess compared to omega-3 fatty acids. Additionally, concerns about genetically modified soybeans and pesticide use in conventional soybean farming have been raised.",
+    "environmental_and_regulation": "The environmental impact of soybean oil production includes deforestation and habitat loss in some regions where soybeans are grown, particularly in South America. Regulatory bodies monitor the levels of contaminants and ensure food safety standards are met, but practices may vary by region.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "palm oil": {
+    "chemical_properties": "Palm oil is primarily composed of saturated and unsaturated fatty acids, including palmitic acid and oleic acid. It has a high melting point and solidifies at room temperature, making it useful in various food and non-food applications.",
+    "common_uses": "Palm oil is commonly used in food products such as margarine, baked goods, snacks, and fried foods. It is also used in cosmetics, soaps, and biodiesel production.",
+    "safety_and_controversy": "Palm oil consumption is generally recognized as safe; however, concerns about its health implications arise from its high saturated fat content. Additionally, the palm oil industry is often criticized for its links to deforestation and habitat destruction.",
+    "environmental_and_regulation": "The production of palm oil has significant impacts on tropical ecosystems, resulting in deforestation, loss of biodiversity, and greenhouse gas emissions. Various regulations and certification schemes, such as the Roundtable on Sustainable Palm Oil (RSPO), have been established to promote sustainable practices.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "corn syrup solids": {
+    "chemical_properties": "Corn syrup solids are derived from the hydrolysis of corn starch, resulting in a white, powdery substance primarily composed of glucose and its polymers. They are highly soluble in water and have a mild sweetness.",
+    "common_uses": "Corn syrup solids are commonly used as a sweetener in food products, especially in confections, baked goods, and processed snacks. They also serve as a thickening agent and help retain moisture in various formulations.",
+    "safety_and_controversy": "Corn syrup solids are generally recognized as safe (GRAS) by the FDA. However, there are concerns about excessive sugar consumption and its links to obesity and metabolic issues, leading some health advocates to discourage their use.",
+    "environmental_and_regulation": "The production of corn syrup solids involves agricultural practices related to corn farming, which can have environmental impacts such as pesticide use and water consumption. Regulations are in place to ensure food safety, though the broader ecological implications are a topic of ongoing discussion.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "polydextrose": {
+    "chemical_properties": "Polydextrose is a synthetic polymer of glucose and sorbitol, used as a low-calorie bulking agent. It is soluble in water and has a low glycemic index.",
+    "common_uses": "Polydextrose is commonly used as a food additive in low-calorie and sugar-free products, such as desserts, beverages, and snack foods, to add fiber and improve texture.",
+    "safety_and_controversy": "Polydextrose is generally recognized as safe (GRAS) by the FDA. However, some individuals may experience gastrointestinal discomfort when consuming it in large amounts.",
+    "environmental_and_regulation": "Polydextrose complies with food safety regulations in various countries and is subject to oversight by food safety authorities, ensuring its safe use in food products.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "cocoa processed with alkali": {
+    "chemical_properties": "Cocoa Processed With Alkali, also known as Dutch-processed cocoa, is treated with alkaline solutions to neutralize acidity, resulting in a darker color and smoother flavor. The chemical process alters the flavonoid content and pH level of the cocoa powder.",
+    "common_uses": "This ingredient is commonly used in baking and chocolate production, especially in recipes for cakes, cookies, and beverages, due to its rich flavor and color. It is also popular in the production of chocolate bars and confections.",
+    "safety_and_controversy": "There has been some debate regarding the health implications of alkali processing on the flavonoid content in cocoa. While significantly reducing acidity, this process may also lower certain antioxidant properties. However, it is generally recognized as safe when used appropriately in food products.",
+    "environmental_and_regulation": "Cocoa processing with alkali adheres to food safety regulations set by organizations like the FDA. However, the environmental impact of cocoa farming and production can vary, and there is ongoing discussion regarding sustainable practices in the cocoa industry.",
+    "health_safety_rating": 0.85,
+    "edible": true
+  },
+  "fructose": {
+    "chemical_properties": "Fructose is a simple sugar (monosaccharide) with the molecular formula C6H12O6. It is a naturally occurring sugar found in many fruits, honey, and root vegetables. It is sweeter than glucose and has a low glycemic index.",
+    "common_uses": "Fructose is commonly used as a sweetener in food products, beverages, and processed foods. It is also used in the production of high-fructose corn syrup, which is widely used in the food industry.",
+    "safety_and_controversy": "Fructose is generally recognized as safe (GRAS) when consumed in moderation. However, excessive consumption, particularly in the form of added sugars, has been linked to various health issues such as obesity, insulin resistance, and fatty liver disease.",
+    "environmental_and_regulation": "The production of fructose, particularly high-fructose corn syrup, can have environmental impacts related to agricultural practices, including the use of pesticides and fertilizers. Regulations vary by country regarding labeling and use in food products.",
+    "health_safety_rating": "0.80",
+    "edible": true
+  },
+  "dried cream": {
+    "chemical_properties": "Dried cream is primarily composed of fats, proteins, and carbohydrates with a moisture content typically below 5%. It contains lactose and has various vitamins and minerals found in fresh cream, such as calcium and vitamin A. The drying process often removes most of the water content, resulting in a stable powder form.",
+    "common_uses": "Dried cream is commonly used in baking, cooking, and as a flavor enhancer in desserts, soups, and sauces. It can also be reconstituted with water to create a liquid cream-like product for use in coffee and other beverages.",
+    "safety_and_controversy": "Dried cream is generally recognized as safe (GRAS) when used appropriately in food products. However, individuals who are lactose intolerant or have a milk allergy should avoid it. There are no significant controversies surrounding its use.",
+    "environmental_and_regulation": "Dried cream production is subject to food safety regulations as it falls under dairy products. Compliance with hygiene and nutritional standards is monitored by food safety authorities.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "leavening": {
+    "chemical_properties": "Leavening agents are substances that cause expansion of doughs and batters by the production of gas, primarily carbon dioxide, through moisture and heat. Common leavening agents include baking soda (sodium bicarbonate) and baking powder, which can contain a combination of acids and bases that react upon hydration and heating.",
+    "common_uses": "Leavening agents are widely used in baking to create light and fluffy textures in products such as bread, cakes, muffins, and pastries. They are essential for the fermentation process in yeast breads as well as for quick breads that rely on chemical leavening.",
+    "safety_and_controversy": "Leavening agents like baking soda and baking powder are generally recognized as safe (GRAS) when used in moderate amounts in food products. However, excessive consumption can lead to health issues, such as metabolic alkalosis, due to high sodium content in baking soda. Consumers should check for specific dietary restrictions, such as gluten sensitivity in products containing certain leavening agents.",
+    "environmental_and_regulation": "The production and use of leavening agents are regulated by food safety authorities in many countries. The ingredients must meet specific safety standards to be used in processed food. Environmental impact is minimal, but regulatory compliance is required for production processes to ensure safety in food technologies.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "baking soda": {
+    "chemical_properties": "Baking soda, or sodium bicarbonate (NaHCO3), is a white crystalline compound that is slightly alkaline and soluble in water. It has a mild base and can react with acids to produce carbon dioxide gas.",
+    "common_uses": "Baking soda is primarily used as a leavening agent in baking. It is also used in cleaning products, as a pH buffer, in personal care products, and for deodorizing.",
+    "safety_and_controversy": "Baking soda is generally recognized as safe when used in appropriate amounts. However, excessive consumption can lead to metabolic alkalosis, and it should be used cautiously in individuals with certain medical conditions.",
+    "environmental_and_regulation": "Baking soda is considered environmentally benign and is not subject to significant regulation. It is biodegradable and does not pose risks to the environment when used appropriately.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "sodium acid pyrophosphate": {
+    "chemical_properties": "Sodium Acid Pyrophosphate (SAPP) is a sodium salt of pyrophosphate, characterized by its white crystalline appearance and moderate solubility in water. It is often used as an acidulant and leavening agent in food products.",
+    "common_uses": "Sodium Acid Pyrophosphate is commonly used in the food industry as a leavening agent, stabilizer, and emulsifier. It is found in products such as baked goods, potato products, and processed cheeses.",
+    "safety_and_controversy": "Sodium Acid Pyrophosphate is generally recognized as safe (GRAS) by the FDA when used in accordance with good manufacturing practices. However, excessive consumption may lead to health risks, and individuals with certain health conditions, such as kidney disease, should limit their intake.",
+    "environmental_and_regulation": "Sodium Acid Pyrophosphate is regulated by the FDA and is permitted for use in food products without specific concentration limits, as it is considered safe for human consumption. It is not classified as hazardous waste and has minimal environmental impact.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "monocalcium phosphate": {
+    "chemical_properties": "Monocalcium phosphate, with the chemical formula Ca(H2PO4)2, is a calcium salt of phosphoric acid. It is a white, crystalline powder that exists in several hydrate forms. It is soluble in water and can act as an acidulant.",
+    "common_uses": "Monocalcium phosphate is widely used as a food additive, leavening agent in baking, and as a nutritional supplement. It is also utilized in fertilizers and as a dietary source of calcium and phosphorus.",
+    "safety_and_controversy": "Monocalcium phosphate is generally recognized as safe (GRAS) when used in food applications. However, excessive consumption, particularly from dietary supplements, may lead to imbalances in calcium and phosphorus levels.",
+    "environmental_and_regulation": "Regulatory bodies such as the FDA have approved monocalcium phosphate for use in food products. Environmental concerns are minimal at standard usage levels, though excessive agricultural runoff may contribute to nutrient pollution.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "distilled monoglycerides": {
+    "chemical_properties": "Distilled monoglycerides are fatty acid esters of glycerol formed when glycerol reacts with fatty acids. They typically appear as a white to off-white, waxy solid or a clear, viscous liquid, and are soluble in oil but insoluble in water.",
+    "common_uses": "Distilled monoglycerides are commonly used as emulsifiers in food products, helping to blend ingredients that usually do not mix, such as oil and water. They are often found in baked goods, margarine, ice cream, and other processed foods.",
+    "safety_and_controversy": "Distilled monoglycerides are generally recognized as safe (GRAS) by the FDA when used in food products, and there is limited controversy regarding their safety. Some concerns may arise around allergies in sensitive individuals or their source derived from animal fats.",
+    "environmental_and_regulation": "Regulation of distilled monoglycerides varies by region, but they are commonly approved for use in food products. Environmental impact assessments are generally not significant due to the nature of their production processes, which are standardized and regulated.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "hydrogenated palm kernel oil": {
+    "chemical_properties": "Hydrogenated Palm Kernel Oil is a semi-solid fat derived from the hydrogenation of palm kernel oil, primarily composed of saturated fatty acids such as lauric acid.",
+    "common_uses": "This ingredient is commonly used in the food industry for baking, frying, and as a stabilizer in processed foods. It is also found in non-food products such as soaps and cosmetics.",
+    "safety_and_controversy": "Hydrogenated Palm Kernel Oil contains trans fats, which can raise LDL cholesterol levels and lower HDL cholesterol, contributing to cardiovascular disease. Its production may also involve health risks associated with the processing methods used.",
+    "environmental_and_regulation": "The cultivation of palm oil is linked to significant deforestation and habitat destruction in tropical regions, prompting calls for sustainable sourcing practices. Regulatory frameworks exist to govern its use, but enforcement varies.",
+    "health_safety_rating": "0.60",
+    "edible": true
+  },
+  "gelatin": {
+    "chemical_properties": "Gelatin is a translucent, colorless, flavorless food ingredient derived from collagen obtained from various animal body parts. It is composed mainly of proteins and amino acids, including glycine and proline.",
+    "common_uses": "Gelatin is commonly used as a gelling agent in food products such as jelly, marshmallows, gummy candies, and desserts. It is also used in pharmaceuticals, cosmetics, and photography.",
+    "safety_and_controversy": "Gelatin is generally recognized as safe for consumption by most regulatory agencies. However, it may pose allergies in some individuals and is not suitable for vegetarians and vegans, raising ethical and dietary concerns.",
+    "environmental_and_regulation": "Gelatin production raises considerations related to animal welfare and sustainability. Most countries regulate its production to ensure food safety, but the exact regulations may vary by region.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "datem": {
+    "chemical_properties": "Datem, or Diacetyl Tartaric Acid Ester of Monoglycerides, is an emulsifier and stabilizer derived from fatty acids. It has surfactant properties and improves the texture and shelf stability of food products.",
+    "common_uses": "Datem is commonly used in baked goods, margarine, and other food products to enhance texture, improve dough strength, and extend shelf life.",
+    "safety_and_controversy": "Datem is generally recognized as safe (GRAS) by the FDA when used in accordance with good manufacturing practices. However, it may cause allergic reactions in some individuals, and its long-term health effects are not fully studied, which has led to some debate among health-conscious consumers.",
+    "environmental_and_regulation": "Datem is subject to food safety regulations in various countries. It is approved for use in many regions but is monitored for its environmental impact during production. Its biodegradability is typically assessed in regulatory frameworks.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "calcium sulfate": {
+    "chemical_properties": "Calcium sulfate (CaSO4) is a white powder with low solubility in water. It exists in several forms, including anhydrous, dihydrate (gypsum), and hemihydrate (plaster of Paris).",
+    "common_uses": "Calcium sulfate is commonly used in the food industry as a coagulant, in tofu production, as an anti-caking agent, and in brewing. It is also used in construction materials, as a desiccant, and in dental molds.",
+    "safety_and_controversy": "Calcium sulfate is generally recognized as safe (GRAS) when used in food. There are no significant health controversies regarding its use in the food industry, although excessive exposure in powder form can cause respiratory issues.",
+    "environmental_and_regulation": "Calcium sulfate is non-toxic and environmentally friendly. It is regulated by food safety authorities, including the FDA, which has classified it as safe for consumption.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "vanilla extract": {
+    "chemical_properties": "Vanilla extract contains vanillin as its primary flavor compound, derived from the vanilla bean. It consists of approximately 35% alcohol and is made through the extraction process which uses water, alcohol, and glycerin to dissolve the flavor compounds.",
+    "common_uses": "Vanilla extract is commonly used as a flavoring agent in baking and cooking, particularly in desserts such as cakes, cookies, ice cream, and puddings. It is also used in beverages and savory dishes to enhance flavor.",
+    "safety_and_controversy": "Vanilla extract is generally considered safe for consumption. However, excessive consumption may lead to alcohol-related issues due to its alcohol content. There have been discussions regarding the potential for synthetic vanillin versus natural vanilla extract, with natural products being preferred by many consumers.",
+    "environmental_and_regulation": "The production of vanilla extract can involve environmental considerations, particularly in relation to sustainable farming practices for vanilla beans. Regulations ensure that food products meet safety standards, but there are ongoing concerns about the environmental impact of vanilla farming and possible exploitation in developing regions.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "yellow 5 lake": {
+    "chemical_properties": "Yellow 5 Lake is a synthetic dye, specifically a type of azo dye, that is derived from sulfuric acid and various aromatic compounds. It is insoluble in water but soluble in oils and some organic solvents, making it suitable for a variety of applications.",
+    "common_uses": "It is commonly used in food products, cosmetics, and pharmaceuticals to provide a bright yellow color. In the food industry, it is often found in candies, soft drinks, and snack foods.",
+    "safety_and_controversy": "Yellow 5 Lake has been the subject of controversy regarding potential allergic reactions in some individuals and potential links to hyperactivity in children, though regulatory bodies have generally deemed it safe for consumption within established limits.",
+    "environmental_and_regulation": "Regulated by the U.S. Food and Drug Administration (FDA) and the European Food Safety Authority (EFSA), Yellow 5 Lake is approved for use in food products in many countries, with specific guidelines regarding acceptable daily intake levels.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "xanthan gum": {
+    "chemical_properties": "Xanthan gum is a polysaccharide composed of repeating units of glucose, mannose, and glucuronic acid. It is produced through the fermentation of carbohydrates by the bacterium Xanthomonas campestris. Xanthan gum is soluble in both hot and cold water and forms a viscous solution at low concentrations.",
+    "common_uses": "Xanthan gum is widely used as a thickening agent and stabilizer in various food products including salad dressings, sauces, ice creams, and gluten-free baked goods. It is also used in cosmetics, personal care products, and pharmaceuticals.",
+    "safety_and_controversy": "Xanthan gum is generally recognized as safe (GRAS) by the FDA when used in food products. Some individuals may experience digestive issues or allergic reactions, but these occurrences are rare. No significant controversies exist regarding its safety when consumed within recommended amounts.",
+    "environmental_and_regulation": "The production of xanthan gum involves fermentation processes that are considered environmentally friendly. There are currently no specific environmental regulations targeting xanthan gum, as it is derived from renewable resources. It is regulated by food safety authorities in various regions, ensuring it meets safety standards.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "carnauba wax": {
+    "chemical_properties": "Carnauba wax is a natural plant wax derived from the leaves of the carnauba palm (Copernicia prunifera). It consists mainly of esters, fatty acids, and long-chain alcohols, and is known for its high melting point and glossy finish.",
+    "common_uses": "Carnauba wax is widely used in food products as a coating agent to enhance texture and shine, particularly in candies and chocolates. It is also found in cosmetics, automotive waxes, and as a binder in pharmaceuticals.",
+    "safety_and_controversy": "Carnauba wax is generally recognized as safe (GRAS) when used in food applications, but excessive consumption may cause digestive issues in some individuals. There are no major controversies associated with its use.",
+    "environmental_and_regulation": "Carnauba wax is a sustainable product sourced from the leaves of a palm tree, making it environmentally friendly. It is regulated by food safety authorities and is approved for use in various regions, including the United States and the European Union.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "red 40 lake": {
+    "chemical_properties": "Red 40 Lake is a synthetic dye made from petroleum products. It is a water-insoluble form of Red 40 (Allura Red) and is often used in products requiring a stable colorant that does not bleed in moisture.",
+    "common_uses": "Red 40 Lake is commonly used in food products, cosmetics, and pharmaceutical applications to impart a vibrant red hue. Typical food items include candies, soft drinks, and baked goods.",
+    "safety_and_controversy": "Red 40 Lake has been the subject of some debate regarding its potential health effects, with concerns about allergies and hyperactivity in children. Regulatory agencies like the FDA have deemed it safe for consumption within established limits.",
+    "environmental_and_regulation": "Red 40 Lake is monitored and regulated by the FDA in the United States. It is approved for use in many countries, although some regions may impose stricter regulations or bans on certain synthetic dyes.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "blue 2 lake": {
+    "chemical_properties": "Blue 2 Lake is a synthetic dye made from the dyeing process involving azo compounds. It has a specific absorption peak in the visible spectrum, which gives it its characteristic blue color. It is water-insoluble and typically used in a powdered form to provide coloring in various products.",
+    "common_uses": "Blue 2 Lake is commonly used in food products such as candies, beverages, and baked goods, as well as in cosmetics and pharmaceuticals. It provides vivid blue coloring and is often used to enhance the visual appeal of products.",
+    "safety_and_controversy": "While Blue 2 Lake is approved for use by various food safety authorities, there have been concerns related to artificial food colorings, including potential allergic reactions and hyperactivity in children. However, it has met safety standards in regulated contexts.",
+    "environmental_and_regulation": "Blue 2 Lake is regulated by the FDA in the United States and other food safety agencies worldwide. It is allowed within specified limits in food products, though some environmentalists call for stricter regulations on synthetic dyes due to their potential impact on wildlife and ecosystems.",
+    "health_safety_rating": 0.6,
+    "edible": true
+  },
+  "yellow 6 lake": {
+    "chemical_properties": "Yellow 6 Lake is a synthetic colorant derived from either coal tar or petroleum. It is a color additive that appears as a yellow powder and is soluble in fats and oils but not in water.",
+    "common_uses": "It is widely used in the food industry to color various products including candies, soft drinks, and baked goods. Additionally, it is found in cosmetics and pharmaceuticals.",
+    "safety_and_controversy": "Yellow 6 Lake has been the subject of debate regarding potential health risks, including allergic reactions and hyperactivity in children. However, regulatory bodies such as the FDA have deemed it safe for consumption within established limits.",
+    "environmental_and_regulation": "The use of Yellow 6 Lake is regulated by the FDA in the United States, with guidelines that stipulate permissible levels in food products. Its impact on the environment is minimal when used according to regulations.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "blue 1": {
+    "chemical_properties": "Blue 1, also known as Brilliant Blue FCF, is a synthetic dye that belongs to the food coloring group of compounds. It is water-soluble and typically appears as a blue powder or granule. Its chemical formula is C37H34N2Na2O9S2.",
+    "common_uses": "Blue 1 is commonly used in food products, beverages, cosmetics, and pharmaceuticals to provide a blue color. It is often found in candies, soft drinks, and dessert mixes.",
+    "safety_and_controversy": "Blue 1 has been evaluated by various food safety authorities and is generally considered safe when consumed within established limits. However, some studies have suggested potential allergic reactions in sensitive individuals, and it has been a subject of controversy regarding its consumption in large quantities.",
+    "environmental_and_regulation": "Blue 1 is regulated by food safety authorities in many countries, including the FDA and EFSA. It is permitted for use in food products within specified concentrations. There are ongoing discussions about the environmental impact of synthetic dyes, particularly in waste management.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "vitamin b6": {
+    "chemical_properties": "Vitamin B6, also known as pyridoxine, is a water-soluble vitamin involved in numerous biochemical reactions in the body, particularly amino acid metabolism. It exists in several forms such as pyridoxal, pyridoxine, and pyridoxamine. Its molecular formula is C8H11NO3.",
+    "common_uses": "Vitamin B6 is commonly used as a dietary supplement to support metabolism, reduce symptoms of premenstrual syndrome, and improve mood. It is also included in multivitamins and fortified foods.",
+    "safety_and_controversy": "Vitamin B6 is considered safe when taken in appropriate doses. However, excessive intake from supplements can lead to neuropathy and other side effects. The UL (Tolerable Upper Intake Level) for adults is set at 100 mg per day, well above typical dietary exposure.",
+    "environmental_and_regulation": "Vitamin B6 is typically recognized as safe (GRAS) by regulatory agencies when used in food products. Its production and use are regulated to ensure consumer safety, and it does not pose significant environmental risks.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "flour, niacin, reduced iron, thiamin mononitrate vitamin b1, riboflavin vitamin b2, folic acid)": {
+    "chemical_properties": "Flour is primarily composed of carbohydrates (starch), with small amounts of protein, fat, and fiber. Niacin is a B vitamin that functions in metabolism. Reduced iron is an iron supplement, while Thiamin Mononitrate, Riboflavin, and Folic Acid are essential vitamins involved in various metabolic processes.",
+    "common_uses": "Flour is commonly used as a key ingredient in baking bread, pastries, and cakes. Niacin and other added vitamins are often included in enriched flours to enhance their nutritional profile.",
+    "safety_and_controversy": "Generally recognized as safe when consumed in typical amounts as part of a balanced diet. However, some individuals may have sensitivities to gluten in wheat flour. Enrichment with vitamins like niacin and folic acid helps prevent nutritional deficiencies.",
+    "environmental_and_regulation": "Flour production involves agriculture and can vary in its environmental impact depending on farming practices. Regulatory bodies monitor the safety and labeling of enriched flours to ensure compliance with nutritional standards.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "cocoa (processed with alkali)": {
+    "chemical_properties": "Cocoa (Processed With Alkali) is produced through a process known as alkalization, which reduces the acidity of cocoa. This process enhances the solubility and alters the flavor profile of cocoa. It contains flavonoids, which are antioxidants, and its chemical composition includes varying percentages of fat, carbohydrates, and proteins depending on the specific product.",
+    "common_uses": "Cocoa (Processed With Alkali) is commonly used in the food industry for making chocolate products, baked goods, beverages, and confections. It is also used as a flavoring agent in desserts and other food items.",
+    "safety_and_controversy": "While cocoa processed with alkali is considered safe for consumption, there are some debates regarding the potential reduction of antioxidant levels compared to raw cocoa. Additionally, some consumers prefer non-alkalized cocoa due to concerns about the loss of natural flavor and nutrients.",
+    "environmental_and_regulation": "The production of cocoa can involve environmental concerns related to deforestation, pesticide use, and fair trade practices. Regulatory bodies in various regions monitor the safety and sustainability of cocoa production to ensure that it meets health and environmental standards.",
+    "health_safety_rating": "0.85",
+    "edible": true
+  },
+  "leavening (baking soda, sodium acid pyrophosphate, monocalcium phosphate, calcium sulfate)": {
+    "chemical_properties": "Leavening agents are compounds that release gases when heated or mixed with moisture, causing doughs and batters to rise. Baking soda is sodium bicarbonate, which reacts with acidic components to produce carbon dioxide gas. Sodium acid pyrophosphate and monocalcium phosphate are acidulants that also contribute to leavening through gas release. Calcium sulfate acts as a stabilizer and filler.",
+    "common_uses": "These ingredients are commonly used in baking powder and other leavening agents for baking various goods, including cakes, cookies, and breads. They help create a light and fluffy texture in baked products.",
+    "safety_and_controversy": "Generally recognized as safe (GRAS) when used in appropriate amounts in food. There are no significant controversies or health concerns associated with these leavening agents when consumed as part of a regular diet.",
+    "environmental_and_regulation": "Leavening agents are regulated by food safety authorities such as the FDA and EFSA. They are widely accepted for use in food products and do not pose significant environmental hazards.",
+    "health_safety_rating": "0.90",
+    "edible": true
+  },
+  "color added": {
+    "chemical_properties": "Color added refers to substances used to impart color to food and beverages. These can include both natural and synthetic dyes, such as beet juice, turmeric, and artificial colors like Red 40 and Yellow 5. The chemical structures vary widely depending on the source and type of colorant.",
+    "common_uses": "Color added is commonly used in a variety of food products including candies, soft drinks, baked goods, and sauces to enhance visual appeal and consumer desirability.",
+    "safety_and_controversy": "While many color additives are deemed safe for consumption, some synthetic dyes have been associated with health concerns, including hyperactivity in children and allergic reactions. Regulatory bodies like the FDA evaluate these dyes, leading to controversies over their use.",
+    "environmental_and_regulation": "Color additives are regulated by governmental agencies such as the FDA in the United States. They must undergo safety assessments before approval and are subject to regulations regarding their use in food products to minimize environmental impact.",
+    "health_safety_rating": "0.80",
+    "edible": true
+  },
+  "pyridoxine hydrochloride vitamin b6": {
+    "chemical_properties": "Pyridoxine hydrochloride is a water-soluble vitamin B6. It has the chemical formula C8H10N2O3Cl and a molecular weight of 205.63 g/mol. It is soluble in water and has a white crystalline appearance.",
+    "common_uses": "Pyridoxine hydrochloride is commonly used as a dietary supplement to prevent or treat vitamin B6 deficiency. It is also used in fortified foods, as well as in various pharmaceutical formulations.",
+    "safety_and_controversy": "Pyridoxine hydrochloride is generally considered safe when taken at recommended doses. However, excessive intake can lead to neurological issues, and some concerns exist regarding interactions with certain medications.",
+    "environmental_and_regulation": "Pyridoxine hydrochloride is regulated as a food additive and dietary supplement. It is generally recognized as safe (GRAS) when used in accordance with applicable regulations.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "riboflavin vitamin b2": {
+    "chemical_properties": "Riboflavin, also known as Vitamin B2, is a water-soluble vitamin with the chemical formula C17H20N4O6. It appears as a yellow-orange to reddish-orange crystalline powder and is soluble in water but insoluble in fats and oils.",
+    "common_uses": "Riboflavin is commonly used as a dietary supplement to prevent or treat riboflavin deficiency. It is also added to food products as a colorant (E101) and is important in energy production and cellular function.",
+    "safety_and_controversy": "Riboflavin is considered safe for most people when taken in recommended amounts. There are no known serious side effects from riboflavin supplementation, although high doses may lead to urine discoloration. Allergic reactions are rare.",
+    "environmental_and_regulation": "Riboflavin is generally recognized as safe (GRAS) by the FDA when used as a food additive. There are no significant environmental risks associated with its production or use.",
+    "health_safety_rating": 1.0,
+    "edible": true
+  },
+  "thiamin hydrochloride vitamin b1": {
+    "chemical_properties": "Thiamin hydrochloride is a water-soluble vitamin B1 compound that is white to slightly yellowish crystalline powder with a molecular formula of C12H17ClN4O6S. It has a melting point of approximately 220-225\u00b0C and is soluble in water.",
+    "common_uses": "Thiamin hydrochloride is commonly used as a dietary supplement to prevent or treat vitamin B1 deficiency, particularly in individuals with increased nutritional needs. It is also used in fortifying foods and beverages and may be found in various energy drinks and nutritional supplements.",
+    "safety_and_controversy": "Thiamin hydrochloride is generally recognized as safe when consumed within the recommended dietary allowances. High doses may cause adverse effects such as allergic reactions, though such occurrences are rare. There are no significant controversies surrounding its use.",
+    "environmental_and_regulation": "Thiamin hydrochloride is regulated as a food additive by food safety authorities and is subject to Good Manufacturing Practices (GMP). It is not known to pose significant environmental hazards when used according to guideline concentrations.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "blue 2": {
+    "chemical_properties": "Blue 2, also known as indigo carmine, is a synthetic dye derived from indigo and is indexed under E132 in food coloring. It is water-soluble and has a blue hue, primarily used in processed foods and beverages.",
+    "common_uses": "Commonly used to color candies, beverages, and desserts. It is also utilized in pharmaceuticals and cosmetics.",
+    "safety_and_controversy": "Blue 2 has been reviewed for safety and is considered safe for consumption in regulated amounts. However, some individuals may experience allergic reactions or sensitivity.",
+    "environmental_and_regulation": "Regulated by the FDA in the United States and by relevant authorities in other countries. It is permitted for use in food products within specified concentration limits.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "yellow": {
+    "chemical_properties": "Yellow often refers to a color associated with various compounds such as curcumin (found in turmeric), flavonoids (in fruits and vegetables), and synthetic pigments like Yellow 5 (tartrazine). These compounds vary in chemical structure but often contain chromophores that absorb certain wavelengths of light, reflecting yellow.",
+    "common_uses": "Yellow pigments and dyes are used in food coloring, cosmetics, textiles, and art supplies. In food, natural yellow colorants are found in saffron, turmeric, and certain fruits like bananas and lemons.",
+    "safety_and_controversy": "Certain synthetic yellow dyes, such as Yellow 5, have been linked to allergic reactions in some individuals and are subject to regulatory scrutiny. However, natural yellow sources like turmeric are generally regarded as safe.",
+    "environmental_and_regulation": "Many yellow dyes and pigments are regulated by health and safety standards. Natural sources typically have better environmental profiles, while synthetic dyes may have restrictions due to chemical concerns.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "tbhq": {
+    "chemical_properties": "Tert-Butylhydroquinone (TBHQ) is a phenolic compound with the chemical formula C10H14O2. It is a white crystalline solid at room temperature and is soluble in fats and oils. TBHQ acts as an antioxidant by preventing the oxidation of fats and oils, which extends product shelf life.",
+    "common_uses": "TBHQ is commonly used as a food preservative, particularly in processed foods, frying oils, and fast food. It is also utilized in the cosmetic and pharmaceutical industries as a stabilizer for certain products.",
+    "safety_and_controversy": "While TBHQ is generally recognized as safe by the FDA at low concentrations, there are concerns about its potential effects on health at higher doses. Some studies suggest that excessive consumption could lead to negative health effects, including potential carcinogenicity.",
+    "environmental_and_regulation": "TBHQ is regulated in many countries due to its use in food products. In the EU, it is permitted as a food additive, but its use is limited in various food categories. Environmental concerns focus on its biodegradability and potential toxicity to aquatic organisms, leading to regulations in waste disposal.",
+    "health_safety_rating": 0.8,
+    "edible": true
+  },
+  "thiamin mononitrate (vitamin b1)": {
+    "chemical_properties": "Thiamin mononitrate is a stable, water-soluble form of vitamin B1, with the chemical formula C12H17N4O6S. It appears as a white crystalline powder and is hygroscopic in nature, soluble in water, and has a melting point of approximately 200 \u00b0C.",
+    "common_uses": "Thiamin mononitrate is commonly used as a dietary supplement and food additive to fortify cereals, bread, and other processed foods. It plays a crucial role in carbohydrate metabolism and is often included in vitamin B complex formulations.",
+    "safety_and_controversy": "Thiamin mononitrate is generally recognized as safe (GRAS) when used in recommended amounts. However, excessive intake can lead to adverse effects, such as allergic reactions or gastrointestinal disturbances in sensitive individuals. There are no known significant controversies regarding its use.",
+    "environmental_and_regulation": "Thiamin mononitrate is regulated as a food additive by several health organizations, including the FDA. It must meet specific safety criteria under the food safety regulations, and its environmental impact is negligible when used in normal dietary amounts.",
+    "health_safety_rating": 0.95,
+    "edible": true
+  },
+  "riboflavin (vitamin b2), folic acid)": {
+    "chemical_properties": "Riboflavin (Vitamin B2) is a water-soluble vitamin with the chemical formula C17H20N4O6R. It has a yellow-green color and is involved in energy production and metabolism of fats, drugs, and steroids. Folic Acid (Vitamin B9) has the chemical formula C19H19N7O6P and is crucial for DNA synthesis and repair, as well as cell division.",
+    "common_uses": "Riboflavin is commonly used as a dietary supplement and food additive for its role in energy metabolism and as a colorant. Folic Acid is widely used in prenatal vitamins and fortified foods to prevent neural tube defects during pregnancy and to support overall health.",
+    "safety_and_controversy": "Both Riboflavin and Folic Acid are generally regarded as safe when taken within recommended dietary allowances. Excessive intake of Folic Acid may lead to potential health risks, such as masking vitamin B12 deficiency.",
+    "environmental_and_regulation": "Riboflavin and Folic Acid are regulated as food additives by the FDA. They are recognized as safe for use in foods, although environmental concerns related to agricultural practices may arise from their production.",
+    "health_safety_rating": 0.9,
+    "edible": true
+  },
+  "pyridoxine hydrochloride (vitamin b6)": {
+    "chemical_properties": "Pyridoxine hydrochloride is a water-soluble vitamin B6 compound. Its chemical formula is C8H10ClN3O3S, and it has a molecular weight of 205.68 g/mol. The compound appears as an odorless, pale yellow crystalline powder that is soluble in water and ethanol but insoluble in oils.",
+    "common_uses": "Pyridoxine hydrochloride is commonly used as a dietary supplement to prevent or treat vitamin B6 deficiency. It is also used in fortified foods, infant formulas, and in the treatment of certain conditions such as premenstrual syndrome (PMS) and carpal tunnel syndrome. Additionally, it is used in the production of pharmaceutical products and as a food additive.",
+    "safety_and_controversy": "Pyridoxine hydrochloride is generally considered safe when taken in appropriate amounts, although excessive doses can lead to nerve toxicity. Recommended dietary allowances for adults are 1.3 to 2.0 mg per day. Some controversies exist regarding its effectiveness in treating certain conditions and its potential to cause peripheral neuropathy when consumed in large amounts over extended periods.",
+    "environmental_and_regulation": "Pyridoxine hydrochloride is regulated by food safety authorities such as the FDA as a dietary supplement and is generally recognized as safe (GRAS) when used in appropriate amounts. There are no significant environmental hazards associated with its use, although proper disposal measures should be followed to minimize environmental impact.",
+    "health_safety_rating": 0.9,
     "edible": true
   }
 }

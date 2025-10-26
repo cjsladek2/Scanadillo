@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function IngredientList({ analysisData }) {
   const [selectedIngredient, setSelectedIngredient] = useState(null);
-  const [sortOption, setSortOption] = useState("label"); // ✅ Added missing state
+  const [sortOption, setSortOption] = useState("low"); // ✅ Added missing state
 
   if (!analysisData || !analysisData.success) {
     return (
@@ -90,7 +90,6 @@ export default function IngredientList({ analysisData }) {
           </h3>
 
           {/* Sorting Dropdown */
-			setSortOption("low")
 		  }
           <select
             value={sortOption}
