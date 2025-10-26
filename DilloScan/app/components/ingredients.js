@@ -53,12 +53,12 @@ export default function IngredientList({ analysisData }) {
     switch (sortOption) {
       case "high": // high → low
         return ratingB - ratingA;
-      case "low": // low → high
-        return ratingA - ratingB;
+      case "label": // label order
+        return ingredients.indexOf(a) - ingredients.indexOf(b);
       case "alpha": // alphabetical
         return a.localeCompare(b);
-      default: // label order (original)
-        return ingredients.indexOf(a) - ingredients.indexOf(b);
+      default: // low → high
+		return ratingA - ratingB;
     }
   });
 
@@ -89,7 +89,9 @@ export default function IngredientList({ analysisData }) {
               Detected Ingredients ({ingredients.length})
           </h3>
 
-          {/* Sorting Dropdown */}
+          {/* Sorting Dropdown */
+			setSortOption("low")
+		  }
           <select
             value={sortOption}
             onChange={(e) => setSortOption(e.target.value)}

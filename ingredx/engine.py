@@ -206,7 +206,7 @@ class IngredientEngine:
                 section = text
             else:
                 probable = re.search(
-                    r"([A-Z][a-z]+\s*(?:[,;/\.]\s*[A-Za-z() ]+){2,})",
+                    r"([A-Z][a-z]+\s*(?:[,;/\.]\s*[A-Za-z0-9() ]+){2,})",
                     text,
                     re.DOTALL,
                 )
@@ -216,7 +216,7 @@ class IngredientEngine:
         if not section:
             return []
 
-        section = re.sub(r"([;,/\.])(?=[A-Za-z])", r"\1 ", section)
+        section = re.sub(r"([;,/\.])(?=[A-Za-z0-9])", r"\1 ", section)
         section = section.replace(";", ",").replace("/", ",").replace(".", ",")
         section = re.sub(r"[^a-zA-Z0-9(),.\s-]", " ", section)
         section = re.sub(r"\s{2,}", " ", section).strip()
