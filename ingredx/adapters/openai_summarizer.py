@@ -1,30 +1,34 @@
 from __future__ import annotations
-import os
 from openai import OpenAI
 
+
 class OpenAISummarizer:
-    def __init__(self, api_key: str | None = None):
-        self.client = OpenAI(api_key=api_key or os.getenv("OPENAI_API_KEY"))
+    """
+    Handles summarization and structured JSON generation using OpenAI models.
+    Accepts an optional model_override (e.g. 'gpt-4o-mini') for faster models.
+    """
+
+    def __init__(self, model_override: str = None):
+        self.client = OpenAI()
+        self.model = model_override or "gpt-4o"
 
     def summarize(self, prompt: str, force_json: bool = False) -> str:
         """
-        Summarize text via OpenAI. If force_json=True, use structured output enforcement.
+        Summarize text via OpenAI. If force_json=True, enforces valid JSON response format.
         """
         try:
-            # If forcing JSON, ensure the prompt explicitly contains "json"
             if force_json:
                 if "json" not in prompt.lower():
                     prompt += "\n\nRespond only in valid JSON format."
 
                 completion = self.client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model=self.model,
                     messages=[{"role": "user", "content": prompt}],
-                    response_format={"type": "json_object"},  # Strict JSON
+                    response_format={"type": "json_object"},
                 )
             else:
-                # Normal text response
                 completion = self.client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model=self.model,
                     messages=[{"role": "user", "content": prompt}],
                 )
 
@@ -32,4 +36,3 @@ class OpenAISummarizer:
 
         except Exception as e:
             return f"[Error: {e}]"
-

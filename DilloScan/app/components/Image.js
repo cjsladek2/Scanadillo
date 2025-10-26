@@ -54,22 +54,38 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
     setVideoReady(false);
   };
 
+  // 🔧 Updated logic for analysis
   const analyzeImage = async (imageData) => {
     setAnalyzing(true);
     try {
-      const response = await fetch("http://localhost:5000/api/analyze-image", {
+      const response = await fetch("http://localhost:8000/api/analyze-image", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ image: imageData }),
       });
+
+      if (!response.ok) {
+        const errText = await response.text();
+        console.error("❌ Server error:", errText);
+        alert("Server error: " + response.status);
+        setAnalyzing(false);
+        return;
+      }
+
       const result = await response.json();
-      if (result.success) onIngredientsAnalyzed(result);
-      else alert("Error analyzing image: " + result.error);
+      console.log("🧠 AI result:", result);
+
+      if (result.success) {
+        // ✅ Call the parent handler to update the ingredient list
+        onIngredientsAnalyzed(result);
+      } else {
+        alert("Error analyzing image: " + result.error);
+      }
     } catch (error) {
       console.error("API Error:", error);
-      alert("Could not connect to analysis server. Make sure the Python API is running on port 5000.");
+      alert("Could not connect to analysis server. Make sure the Python API is running on port 8000.");
     } finally {
-      setAnalyzing(false);
+      setAnalyzing(false); // ✅ Always stop loading spinner
     }
   };
 
@@ -126,39 +142,39 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
 
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-xl font-semibold mb-4">Upload Nutrition Label</h2>
+      <h2 className="text-xl font-semibold mb-4">Upload Ingredients List</h2>
 
-  {/* ===============================
-      Reversed Button Order + Sizes
-  =============================== */}
-  {!selectedImage && !cameraActive && (
-    <div className="flex flex-col space-y-4">
-      {/* Large square "Take a Photo" */}
-      <button
-        onClick={startCamera}
-        className="w-64 h-32 border-2 border-dashed border-gray-400 rounded flex items-center justify-center
-                   text-gray-500 text-lg font-medium hover:border-indigo-400 hover:bg-indigo-50
-                   dark:hover:bg-indigo-950 transition-all"
-      >
-        📸 Take a Photo
-      </button>
+      {/* ===============================
+          Reversed Button Order + Sizes
+      =============================== */}
+      {!selectedImage && !cameraActive && (
+        <div className="flex flex-col space-y-4">
+          {/* Large square "Take a Photo" */}
+          <button
+            onClick={startCamera}
+            className="w-64 h-32 border-2 border-dashed border-gray-400 rounded flex items-center justify-center
+                     text-gray-500 text-lg font-medium hover:border-indigo-400 hover:bg-indigo-50
+                     dark:hover:bg-indigo-950 transition-all"
+          >
+            📸 Take a Photo
+          </button>
 
-      {/* Smaller rectangle "Choose File" */}
-      <label
-        className="w-64 h-12 border-2 border-dashed border-gray-400 rounded flex items-center justify-center
-                   cursor-pointer text-gray-500 text-lg font-medium hover:border-indigo-400 hover:bg-indigo-50
-                   dark:hover:bg-indigo-950 transition-all"
-      >
-        📁 Choose File
-        <input
-          type="file"
-          accept="image/*"
-          onChange={handleImageChange}
-          className="hidden"
-        />
-      </label>
-    </div>
-  )}
+          {/* Smaller rectangle "Choose File" */}
+          <label
+            className="w-64 h-12 border-2 border-dashed border-gray-400 rounded flex items-center justify-center
+                     cursor-pointer text-gray-500 text-lg font-medium hover:border-indigo-400 hover:bg-indigo-50
+                     dark:hover:bg-indigo-950 transition-all"
+          >
+            📁 Choose File
+            <input
+              type="file"
+              accept="image/*"
+              onChange={handleImageChange}
+              className="hidden"
+            />
+          </label>
+        </div>
+      )}
 
       {/* ===============================
           Camera preview
@@ -220,7 +236,7 @@ export default function ImageUpload({ onIngredientsAnalyzed }) {
                 </span>
               </div>
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Using AI to extract and analyze nutrition data
+                Extracting ingredients label information
               </p>
             </div>
           )}

@@ -61,3 +61,8 @@ body {
   background-color: rgba(18, 25, 45, 0.55);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+html, body {
+  scroll-behavior: auto !important;
+  overscroll-behavior: none !important;
+}
